@@ -100,10 +100,10 @@ void ingresarInformacionFutbol(int cantidad)
 {
 	system("cls");
 	struct equipos equiposFutbolUsuario[cantidad];
-	int i;
+	int i,j;
 	for (i = 0; i < cantidad; i++) {
 		system("color f1");
-		printf("\tIngrese la informacion para el equipo numero: \n",i+1);
+		printf("\tIngrese la informacion para el equipo numero %i\n",i+1);
 		//datos del equipo
 		printf("Ingrese el nombre del equipo: \n");
 		gets(equiposFutbolUsuario[i].nombreEquipo);
@@ -127,22 +127,23 @@ void ingresarInformacionFutbol(int cantidad)
 		printf("Ingresa los goles del goleador \n");
 		scanf("%i",&equiposFutbolUsuario[i].datosFutbol.numGolesGoleador);
 		fflush(stdin);
-		printf("¿Cual es el nombre del goleador? \n");
+		printf("Â¿Cual es el nombre del goleador? \n");
 		gets(equiposFutbolUsuario[i].datosFutbol.nombreGoleador);
+		system("cls");
 	}
-/*
-	for (i=0;i<cantidad;i++)
+
+	for (j=0;j<cantidad;j++)
 	{
-		printf("%s\n",equiposFutbolUsuario[i].nombreEquipo);
-		printf("%i\n",equiposFutbolUsuario[i].victorias );
-		printf("%i\n",equiposFutbolUsuario[i].empates );
-		printf("%i\n",equiposFutbolUsuario[i].derrotas );
-		printf("%i\n",equiposFutbolUsuario[i].datosFutbol.numGolesFavor );
-		printf("%i\n",equiposFutbolUsuario[i].datosFutbol.numGolesContra );
-		printf("%i\n",equiposFutbolUsuario[i].datosFutbol.numGolesGoleador );
-		printf("%s\n",equiposFutbolUsuario[i].datosFutbol.nombreGoleador);
+		printf("%s\n",equiposFutbolUsuario[j].nombreEquipo);
+		printf("%i\n",equiposFutbolUsuario[j].victorias );
+		printf("%i\n",equiposFutbolUsuario[j].empates );
+		printf("%i\n",equiposFutbolUsuario[j].derrotas );
+		printf("%i\n",equiposFutbolUsuario[j].datosFutbol.numGolesFavor );
+		printf("%i\n",equiposFutbolUsuario[j].datosFutbol.numGolesContra );
+		printf("%i\n",equiposFutbolUsuario[j].datosFutbol.numGolesGoleador );
+		printf("%s\n",equiposFutbolUsuario[j].datosFutbol.nombreGoleador);
 	}
-*/
+
 }
 
 void mostrar_equipos_futbol()
