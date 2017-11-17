@@ -94,6 +94,72 @@ void menu()
 	}
 }
 
+void ingresarInformacionBaloncesto()
+{
+	int mayorGoleador=0;
+	int pos = 0;
+	system("cls");
+	struct equipos equiposBaloncestoUsuario[cantidad];
+	int i,j;
+	system("color f1");
+	for (i = 0; i < cantidad; i++) {
+		printf("\tIngrese la informacion para el equipo numero %i\n",i+1);
+		//datos del equipo
+		fflush(stdin);
+		printf("Ingrese el nombre del equipo: \n");
+		gets(equiposBaloncestoUsuario[i].nombreEquipo);
+		fflush(stdin);
+		printf("	Ingresa la cantidad de victorias: \n");
+		scanf("%i",&equiposBaloncestoUsuario[i].victorias);
+		fflush(stdin);
+		printf("	Ingresa la cantidad de derrotas: \n");
+		scanf("%i",&equiposBaloncestoUsuario[i].derrotas);
+
+		//datos especificos del equipo
+		printf("	Ingrese el numero de veces que se perdio el balon: \n");
+		scanf("%i",&equiposBaloncestoUsuario[i].datosBalon.balonPerdido);
+		fflush(stdin);
+		printf("	Ingrese la cantidad de rebotes recuperados \n");
+		scanf("%i",&equiposBaloncestoUsuario[i].datosBalon.balonRecogido);
+		fflush(stdin);
+		printf("	Ingrese la cantidad de triples del mayor triplero \n");
+		scanf("%i",&equiposBaloncestoUsuario[i].datosBalon.numTriple);
+		fflush(stdin);
+		printf("	Cual es el nombre del triplero? \n");
+		gets(equiposBaloncestoUsuario[i].datosBalon.triplero);
+		system("cls");
+	}
+	printf("Informacion ingresada\n");
+	for (j=0;j<cantidad;j++)
+	{
+		printf("\tNombre del equipo #%i : %s\n",j+1,equiposBaloncestoUsuario[j].nombreEquipo);
+		printf("	Cantidad de victorias: %i\n",equiposBaloncestoUsuario[j].victorias );
+		printf("	Cantidad de derrotas : %i\n",equiposBaloncestoUsuario[j].derrotas );
+		printf("	Cantidad de veces que se perdio el balon : %i\n",equiposBaloncestoUsuario[j].datosBalon.balonPerdido);
+		printf("	Cantidad de rebotes recuperados: %i\n",equiposBaloncestoUsuario[j].datosBalon.balonRecogido);
+		printf("	Cantidad de triples del tripleador : %i\n",equiposBaloncestoUsuario[j].datosBalon.numTriple);
+		printf("	Nombre del triplero            : %s\n",equiposBaloncestoUsuario[j].datosBalon.triplero);
+		getch();
+		system("cls");
+		if (equiposBaloncestoUsuario[j].datosBalon.numTriple  > mayorGoleador)
+		{
+			mayorGoleador    = equiposBaloncestoUsuario[j].datosBalon.numTriple;
+			pos = i;
+		}
+
+		system("color f4");
+		system("cls");
+		printf("\tEl triplero de la liga es : %s \n\tCantidad de goles [%i]\n",equiposBaloncestoUsuario[j].datosBalon.triplero,mayorGoleador);
+		getch();
+		printf("\n");
+		system("color f0");
+		system("cls");
+		printf("presiona para volver al menu principal\n");
+		getch();
+		system("cls");
+		menu();
+}
+
 void ingresarInformacionFutbol(int cantidad)
 {
 	int mayorGoleador=0;
