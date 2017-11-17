@@ -83,6 +83,8 @@ void menu()
 							system("cls");
 							printf("cuantos equipos tiene la liga\n");
 							scanf("%i\n",&numEquipos);
+							printf("-----\n");
+							ingresarInformacionBaloncesto(numEquipos);
 							system("cls");
 							break;
 						}
@@ -94,9 +96,9 @@ void menu()
 	}
 }
 
-void ingresarInformacionBaloncesto()
+void ingresarInformacionBaloncesto(int cantidad)
 {
-	int mayorGoleador=0;
+	int mayorTriplero=0;
 	int pos = 0;
 	system("cls");
 	struct equipos equiposBaloncestoUsuario[cantidad];
@@ -141,15 +143,15 @@ void ingresarInformacionBaloncesto()
 		printf("	Nombre del triplero            : %s\n",equiposBaloncestoUsuario[j].datosBalon.triplero);
 		getch();
 		system("cls");
-		if (equiposBaloncestoUsuario[j].datosBalon.numTriple  > mayorGoleador)
+		if (equiposBaloncestoUsuario[j].datosBalon.numTriple  > mayorTriplero)
 		{
-			mayorGoleador    = equiposBaloncestoUsuario[j].datosBalon.numTriple;
+			mayorTriplero    = equiposBaloncestoUsuario[j].datosBalon.numTriple;
 			pos = i;
 		}
 
 		system("color f4");
 		system("cls");
-		printf("\tEl triplero de la liga es : %s \n\tCantidad de goles [%i]\n",equiposBaloncestoUsuario[j].datosBalon.triplero,mayorGoleador);
+		printf("\tEl triplero de la liga es : %s \n\tCantidad de triples [%i]\n",equiposBaloncestoUsuario[pos].datosBalon.triplero,mayorTriplero);
 		getch();
 		printf("\n");
 		system("color f0");
@@ -158,6 +160,7 @@ void ingresarInformacionBaloncesto()
 		getch();
 		system("cls");
 		menu();
+
 }
 
 void ingresarInformacionFutbol(int cantidad)
