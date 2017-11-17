@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 struct futbol
 {
 	int numGolesFavor;
@@ -93,58 +92,78 @@ void menu()
 		system("cls");
 		break;
 	}
-
 }
 
 void ingresarInformacionFutbol(int cantidad)
 {
+	int mayorGoleador=0;
+	int pos = 0;
 	system("cls");
 	struct equipos equiposFutbolUsuario[cantidad];
 	int i,j;
+	system("color f1");
 	for (i = 0; i < cantidad; i++) {
-		system("color f1");
 		printf("\tIngrese la informacion para el equipo numero %i\n",i+1);
 		//datos del equipo
+		fflush(stdin);
 		printf("Ingrese el nombre del equipo: \n");
 		gets(equiposFutbolUsuario[i].nombreEquipo);
 		fflush(stdin);
-		printf("Ingresa la cantidad de victorias: \n");
+		printf("	Ingresa la cantidad de victorias: \n");
 		scanf("%i",&equiposFutbolUsuario[i].victorias);
 		fflush(stdin);
-		printf("Ingresa la cantidad de empates: \n");
+		printf("	Ingresa la cantidad de empates: \n");
 		scanf("%i",&equiposFutbolUsuario[i].empates);
 		fflush(stdin);
-		printf("Ingresa la cantidad de derrotas: \n");
+		printf("	Ingresa la cantidad de derrotas: \n");
 		scanf("%i",&equiposFutbolUsuario[i].derrotas);
 
 		//datos especificos del equipo
-		printf("Ingresa la cantidad de goles a favor: \n");
+		printf("	Ingresa la cantidad de goles a favor: \n");
 		scanf("%i",&equiposFutbolUsuario[i].datosFutbol.numGolesFavor);
 		fflush(stdin);
-		printf("Ingresa la cantidad de goles en contra \n");
+		printf("	Ingresa la cantidad de goles en contra \n");
 		scanf("%i",&equiposFutbolUsuario[i].datosFutbol.numGolesContra);
 		fflush(stdin);
-		printf("Ingresa los goles del goleador \n");
+		printf("	Ingresa los goles del goleador \n");
 		scanf("%i",&equiposFutbolUsuario[i].datosFutbol.numGolesGoleador);
 		fflush(stdin);
-		printf("Â¿Cual es el nombre del goleador? \n");
+		printf("	Cual es el nombre del goleador? \n");
 		gets(equiposFutbolUsuario[i].datosFutbol.nombreGoleador);
 		system("cls");
 	}
-
+	printf("Informacion ingresada\n");
 	for (j=0;j<cantidad;j++)
 	{
-		printf("%s\n",equiposFutbolUsuario[j].nombreEquipo);
-		printf("%i\n",equiposFutbolUsuario[j].victorias );
-		printf("%i\n",equiposFutbolUsuario[j].empates );
-		printf("%i\n",equiposFutbolUsuario[j].derrotas );
-		printf("%i\n",equiposFutbolUsuario[j].datosFutbol.numGolesFavor );
-		printf("%i\n",equiposFutbolUsuario[j].datosFutbol.numGolesContra );
-		printf("%i\n",equiposFutbolUsuario[j].datosFutbol.numGolesGoleador );
-		printf("%s\n",equiposFutbolUsuario[j].datosFutbol.nombreGoleador);
+		printf("\tNombre del equipo #%i : %s\n",j+1,equiposFutbolUsuario[j].nombreEquipo);
+		printf("	Cantidad de victorias: %i\n",equiposFutbolUsuario[j].victorias );
+		printf("	Cantidad de empates  : %i\n",equiposFutbolUsuario[j].empates );
+		printf("	Cantidad de derrotas : %i\n",equiposFutbolUsuario[j].derrotas );
+		printf("	Cantidad de goles a favor : %i\n",equiposFutbolUsuario[j].datosFutbol.numGolesFavor );
+		printf("	Cantidad de goles encontra: %i\n",equiposFutbolUsuario[j].datosFutbol.numGolesContra );
+		printf("	Cantidad de goles del goleador : %i\n",equiposFutbolUsuario[j].datosFutbol.numGolesGoleador );
+		printf("	Nombre del goleador            : %s\n",equiposFutbolUsuario[j].datosFutbol.nombreGoleador);
+		getch();
+		system("cls");
+		if (equiposFutbolUsuario[j].datosFutbol.numGolesGoleador  > mayorGoleador)
+		{
+			mayorGoleador    = equiposFutbolUsuario[j].datosFutbol.numGolesGoleador ;
+			pos = i;
+		}
 	}
-
+	system("color f4");
+	system("cls");
+	printf("\tEl goleador de la liga es : %s \n\tCantidad de goles [%i]\n",equiposFutbolUsuario[pos].datosFutbol.nombreGoleador,mayorGoleador);
+	getch();
+	printf("\n");
+	system("color f0");
+	system("cls");
+	printf("presiona para volver al menu principal\n");
+	getch();
+	system("cls");
+	menu();
 }
+
 
 void mostrar_equipos_futbol()
 {
@@ -152,7 +171,6 @@ int mayorGoleador=0;
 int pos = 0;
 	system("cls");
 	  llenar_equipos_datosGuardados_futbol();
-	//<-------------------futbol-------------------------------->
 		  int i , j;
 			for (i = 0; i < 3; i++)
 			{
@@ -183,8 +201,6 @@ int pos = 0;
 			system("cls");
 			menu();
 }
-
-
 
 void mostrar_equipos_baloncesto()
 {
@@ -285,7 +301,7 @@ void llenar_equipos_datosGuardados_futbol()
 	fflush(stdin);
 	equiposFutbol[2].datosFutbol.numGolesGoleador = 6 ;
 	fflush(stdin);
-	strcpy(equiposFutbol[2].datosFutbol.nombreGoleador,"Carlos 'el bolinillero' castano");
+	strcpy(equiposFutbol[2].datosFutbol.nombreGoleador,"Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas 'el bolinillero' fernandez");
 	fflush(stdin);
 
 }
@@ -350,46 +366,3 @@ void llenar_equipos_datosGuardados_baloncesto()
 	strcpy(equiposBaloncesto[2].datosBalon.triplero,"Kristaps Porzingis");
 	fflush(stdin);
 }
-
-
-
-///<-------------------------------plantillas----------------------->
-/*
- //plantilla para -futbol-
- //datos del equipo
- strcpy(equiposFutbol[].nombreEquipo,"");
- fflush(stdin);
- equiposFutbol[].victorias = ;
- fflush(stdin);
- equiposFutbol[].empates   = ;
- fflush(stdin);
- equiposFutbol[].derrotas  = ;
-
- //datos especificos del equipo
- equiposFutbol[].datosFutbol.numGolesFavor = ;
- fflush(stdin);
- equiposFutbol[].datosFutbol.numGolesContra = ;
- fflush(stdin);
- equiposFutbol[].datosFutbol.numGolesGoleador =  ;
- fflush(stdin);
- strcpy(equiposFutbol[].datosFutbol.nombreGoleador,"");
-
- //plantilla para -baloncesto-
- //datos del equipo ++
- strcpy(equiposBaloncesto[].nombreEquipo,"");
- fflush(stdin);
- equiposBaloncesto[].victorias = ;
- fflush(stdin);
- equiposBaloncesto[].empates   = ;
- fflush(stdin);
- equiposBaloncesto[].derrotas  = ;
-
- //datos especificos del equipo
- equiposBaloncesto[].datosBalon.balonPerdido = ;
- fflush(stdin);
- equiposBaloncesto[].datosBalon.balonRecogido = ;
- fflush(stdin);
- equiposBaloncesto[].datosBalon.numTriple =  ;
- fflush(stdin);
- strcpy(equiposBaloncesto[].datosBalon.triplero,"");
-*/
