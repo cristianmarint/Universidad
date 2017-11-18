@@ -82,7 +82,7 @@ void menu()
 							case 2:
 							system("cls");
 							printf("cuantos equipos tiene la liga\n");
-							scanf("%i\n",&numEquipos);
+							scanf("%i",&numEquipos);
 							printf("-----\n");
 							ingresarInformacionBaloncesto(numEquipos);
 							system("cls");
@@ -146,9 +146,9 @@ void ingresarInformacionBaloncesto(int cantidad)
 		if (equiposBaloncestoUsuario[j].datosBalon.numTriple  > mayorTriplero)
 		{
 			mayorTriplero    = equiposBaloncestoUsuario[j].datosBalon.numTriple;
-			pos = i;
+			pos = j;
 		}
-
+}
 		system("color f4");
 		system("cls");
 		printf("\tEl triplero de la liga es : %s \n\tCantidad de triples [%i]\n",equiposBaloncestoUsuario[pos].datosBalon.triplero,mayorTriplero);
@@ -162,6 +162,7 @@ void ingresarInformacionBaloncesto(int cantidad)
 		menu();
 
 }
+
 
 void ingresarInformacionFutbol(int cantidad)
 {
