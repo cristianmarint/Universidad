@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+void llenar_equipos_datosGuardados_baloncesto();
+void llenar_equipos_datosGuardados_futbol();
+void mostrar_equipos_baloncesto();
+void mostrar_equipos_futbol();
+void ingresarInformacionFutbol(int cantidad);
+void ingresarInformacionBaloncesto(int cantidad);
+void menu();
+
 struct futbol
 {
 	int numGolesFavor;
