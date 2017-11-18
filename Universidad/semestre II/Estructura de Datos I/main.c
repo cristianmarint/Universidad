@@ -156,7 +156,9 @@ void ingresarInformacionBaloncesto(int cantidad)
 			mayorTriplero    = equiposBaloncestoUsuario[j].datosBalon.numTriple;
 			pos = j;
 		}
-}
+		
+		
+	}
 		system("color f4");
 		system("cls");
 		printf("\tEl triplero de la liga es : %s \n\tCantidad de triples [%i]\n",equiposBaloncestoUsuario[pos].datosBalon.triplero,mayorTriplero);
@@ -228,16 +230,33 @@ void ingresarInformacionFutbol(int cantidad)
 			mayorGoleador    = equiposFutbolUsuario[j].datosFutbol.numGolesGoleador ;
 			pos = i;
 		}
+		
+		
 	}
+fflush(stdin);
+	int equipoGanador=0,pos2=0,puntosGanador=0;
+
+	for(i=0;i<cantidad;i++)
+	{
+		if (equiposFutbolUsuario[i].victorias > equipoGanador)
+		{
+			equipoGanador = equiposFutbolUsuario[i].victorias;
+			pos2=i;
+		}
+	}
+	puntosGanador = (equiposFutbolUsuario[pos2].victorias *3) + equiposFutbolUsuario[pos2].empates;
+	fflush(stdin);
 	system("color f4");
 	system("cls");
-	printf("\tEl goleador de la liga es : %s \n\tCantidad de goles [%i]\n",equiposFutbolUsuario[pos].datosFutbol.nombreGoleador,mayorGoleador);
-	getch();
-	printf("\n");
-	system("color f0");
-	system("cls");
+	fflush(stdin);
+	fflush(stdin);
+	printf("El equipo ganador es: %s con [%i] puntos\n",equiposFutbolUsuario[pos2].nombreEquipo,puntosGanador);
+	printf("el pos: %i\n",pos);
+	printf("\tEl goleador de la liga es : %s \n\tCantidad de goles [%i]\n",equiposFutbolUsuario[pos-1].datosFutbol.nombreGoleador,mayorGoleador);
+	fflush(stdin);
 	printf("presiona para volver al menu principal\n");
 	getch();
+	system("color f0");
 	system("cls");
 	menu();
 }
@@ -269,10 +288,24 @@ int pos = 0;
 						pos = i;
 					}
 			}
+			
+	int equipoGanador=0,pos2=0,puntosGanador=0;
+
+	for(i=0;i<3;i++)
+	{
+		if (equiposFutbol[i].victorias > equipoGanador)
+		{
+			equipoGanador = equiposFutbol[i].victorias;
+			pos2=i;
+		}
+	}
+	puntosGanador = (equiposFutbol[pos2].victorias*3)+equiposFutbol[pos2].empates;
+			
 			system("color f4");
 			system("cls");
 			printf("\tEl goleador de la liga es : %s \n\tCantidad de goles [%i]\n",equiposFutbol[pos].datosFutbol.nombreGoleador,mayorGoleador);
 			printf("\n");
+			printf("El equipo ganador es: %s con [%i] puntos\n",equiposFutbol[pos2].nombreEquipo,puntosGanador);
 			printf("presione una tecla para ir al menu principar\n");
 			getch();
 			system("color f0");
