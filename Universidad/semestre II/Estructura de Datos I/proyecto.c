@@ -1,3 +1,5 @@
+//Proyecto realizado en colaboracion con Jehferson Obando Garcia
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
