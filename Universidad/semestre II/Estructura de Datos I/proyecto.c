@@ -166,7 +166,6 @@ void ingresarInformacionBaloncesto(int cantidad)
 	}
 	getch();
 		system("color f4");
-		//system("cls");
 		printf("\tEl triplero de la liga es : %s del equipo: %s\n\tCantidad de triples [%i]\n",equiposBaloncestoUsuario[pos].datosBalon.triplero,equiposBaloncestoUsuario[pos].nombreEquipo,mayorTriplero);
 		getch();
 		printf("\n");
@@ -347,10 +346,18 @@ void mostrar_equipos_baloncesto()
 					pos ++;
 				}
 			}
+			
+				printf("\n\n\t		Listado de tripleadores\n\n");
+				for (i =0 ; i < 3 ;i++)
+				{
+					printf("	Equipo: %s triplero: %s cantidad de triples: %i\n",equiposBaloncesto[i].nombreEquipo,equiposBaloncesto[i].datosBalon.triplero,equiposBaloncesto[i].datosBalon.numTriple);
+					printf("\n");
+				}
+			getch();
 			system("color f4");
-			system("cls");
+			//system("cls");
 			printf("\n");
-			printf("\tEl tripleador de la liga es : %s \n\tCantidad de triples [%i]\n",equiposBaloncesto[pos-1].datosBalon.triplero,numTriples);
+			printf("\tEl tripleador de la liga es : %s del equipo: %s \n\tCantidad de triples [%i]\n",equiposBaloncesto[pos-1].datosBalon.triplero,equiposBaloncesto[pos-1].nombreEquipo,numTriples);
 			printf("\n");
 			printf("presione una tecla para ir al menu principar\n");
 			getch();
