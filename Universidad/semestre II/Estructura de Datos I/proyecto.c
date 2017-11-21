@@ -1,5 +1,4 @@
 //Proyecto realizado en colaboracion con Jehferson Obando Garcia
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -141,9 +140,9 @@ void ingresarInformacionBaloncesto(int cantidad)
 		gets(equiposBaloncestoUsuario[i].datosBalon.triplero);
 		system("cls");
 	}
-	printf("Informacion ingresada\n");
 	for (j=0;j<cantidad;j++)
 	{
+		printf("\t Informacion ingresada\n");
 		printf("\tNombre del equipo #%i : %s\n",j+1,equiposBaloncestoUsuario[j].nombreEquipo);
 		printf("	Cantidad de victorias: %i\n",equiposBaloncestoUsuario[j].victorias );
 		printf("	Cantidad de derrotas : %i\n",equiposBaloncestoUsuario[j].derrotas );
@@ -157,13 +156,18 @@ void ingresarInformacionBaloncesto(int cantidad)
 		{
 			mayorTriplero    = equiposBaloncestoUsuario[j].datosBalon.numTriple;
 			pos = j;
-		}
-		
-		
+		}	
 	}
+	printf("\n\n\t		Listado de tripleadores\n\n");
+	for (i =0 ; i < cantidad ;i++)
+	{
+		printf("	Equipo: %s triplero: %s cantidad de triples: %i\n",equiposBaloncestoUsuario[i].nombreEquipo,equiposBaloncestoUsuario[i].datosBalon.triplero,equiposBaloncestoUsuario[i].datosBalon.numTriple);
+		printf("\n");
+	}
+	getch();
 		system("color f4");
-		system("cls");
-		printf("\tEl triplero de la liga es : %s \n\tCantidad de triples [%i]\n",equiposBaloncestoUsuario[pos].datosBalon.triplero,mayorTriplero);
+		//system("cls");
+		printf("\tEl triplero de la liga es : %s del equipo: %s\n\tCantidad de triples [%i]\n",equiposBaloncestoUsuario[pos].datosBalon.triplero,equiposBaloncestoUsuario[pos].nombreEquipo,mayorTriplero);
 		getch();
 		printf("\n");
 		system("color f0");
