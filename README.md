@@ -11,6 +11,6 @@ Estructura de datos I | [Proyecto final Corte #3](https://github.com/cristianmar
 
 
 
-<!-**Negrita** y _Inclinada_ y `Code` texto-->
+**Clean**  _Code_  `for` all
 
 
