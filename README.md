@@ -1,4 +1,4 @@
-## Proyectos relizados en COTECNOVA
+# Semestre #2
 
 .-. ._. 
 
