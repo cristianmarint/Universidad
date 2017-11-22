@@ -1,8 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/cristianmarint/Proyectos-Personales/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Estructura de datos I [Proyecto final Corte #3](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/semestre%20II/Estructura%20de%20Datos%20I/proyecto.c) 
 
 ### Markdown
 
