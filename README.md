@@ -5,17 +5,7 @@
 
 MATERIA | PROYECTO
 ------------ | -------------
-#Estructura de datos I | [Proyecto final Corte #3](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/semestre%20II/Estructura%20de%20Datos%20I/proyecto.c) 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-#Estructura de datos I 
-
-[Proyecto final Corte #3](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/semestre%20II/Estructura%20de%20Datos%20I/proyecto.c) 
-
+Estructura de datos I | [Proyecto final Corte #3](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/semestre%20II/Estructura%20de%20Datos%20I/proyecto.c) 
 
 
 - Bulleted
@@ -31,10 +21,3 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cristianmarint/Proyectos-Personales/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
