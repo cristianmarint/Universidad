@@ -9,6 +9,4 @@ Estructura de datos I | [Proyecto final Corte #3](https://github.com/cristianmar
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-
 
