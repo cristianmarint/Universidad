@@ -52,12 +52,14 @@ void menu()
 	int cantidad;
 	system("cls");
 	int op;
-	printf("\t Menu Principal \n");
-	printf("elija una opcion \n1)Hacer un test con Informacion guardada\n2)Elija un deporte para ingresar informacion nueva\n3)Salir.\n");
+	printf("\t\t Menu Principal \n");
+	printf("****************************************************\n");
+	printf("\telija una opcion \n**1)Hacer un test con Informacion guardada\n**2)Elija un deporte para ingresar informacion nueva\n**3)Salir.\n");
+	printf("****************************************************\n");
 	scanf("%i",&op);
 	switch (op) {
 		case 1:
-					printf("\t Elija un deporte \n 1) futbol 2) baloncesto\n");
+					printf("\t++ Elija un deporte \n 1) futbol 2) baloncesto\n");
 					scanf("\t %i",&op);
 						switch (op)
 						{
@@ -74,7 +76,7 @@ void menu()
 		break;
 
 		case 2:
-					printf("\t Elija un deporte \n 1) futbol 2) baloncesto\n");
+					printf("\t++ Elija un deporte \n 1) futbol 2) baloncesto\n");
 					scanf("\t %i",&op);
 					int numEquipos;
 						switch (op)
