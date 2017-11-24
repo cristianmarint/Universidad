@@ -54,7 +54,7 @@ void menu()
 	int op;
 	printf("\t\t Menu Principal \n");
 	printf("****************************************************\n");
-	printf("\telija una opcion \n**1)Hacer un test con Informacion guardada\n**2)Elija un deporte para ingresar informacion nueva\n**3)Creadores.\n**4)Salir.\n");
+	printf("\telija una opcion \n**1)Hacer un test con Informacion guardada\n**2)Elija un deporte para ingresar informacion nueva\n**3)Creadores.\n**4)Salir.");
 	printf("****************************************************\n");
 	scanf("%i",&op);
 	switch (op) {
@@ -102,13 +102,15 @@ void menu()
 		break;
 		
 		case 3:
-		system("color f6");
+		system("color 84");
 		system("cls");
 		printf("\n\n");
 		printf("\t\t \t\tEstudiantes: \n\n");
-		printf("\t**************Cristian Alexander Marin Aguirre************** \n\n");
-		printf("\t**************Jehferson Obando Garcia************************\n");
-		
+		printf("\t**************Cristian  Alexander Marin ************** \n\n");
+		printf("\t**************Jehferson Obando    Garcia**************\n");
+		getch();
+		system("cls");
+		menu();
 		break;
 
 		case 4:
