@@ -1,26 +1,8 @@
-https://cristianmarint.github.io/Proyectos-Personales/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Semestre #2
 
 _Tabla de contenido_
 
+[page](https://cristianmarint.github.io/Proyectos-Personales)
 
 MATERIA | PROYECTO
 ------------ | -------------
