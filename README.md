@@ -3,7 +3,7 @@
 
 _Tabla de contenido_
 
-<img src="https://avatars1.githubusercontent.com/u/31068007?s=400&u=9756efad59b4faf5ff84451ff703e2cd3e193d6e&v=4" width="150" height="150" margin-left="30%">
+<img src="https://avatars1.githubusercontent.com/u/31068007?s=400&u=9756efad59b4faf5ff84451ff703e2cd3e193d6e&v=4" width="75" height="75" margin-left="30%">
 
 MATERIA | PROYECTO
 ------------ | -------------
