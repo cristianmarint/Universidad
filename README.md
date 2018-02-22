@@ -20,7 +20,7 @@ _Tabla de contenido_
 MATERIA | PROYECTO
 ------------ | -------------
 Estructura de datos II | [Taller 1](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/taller%201/main.c)
-
+------------ | -------------
 
 Estructura de datos II | [Taller 2](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/taller%202/main.c)
 
