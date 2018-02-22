@@ -47,7 +47,7 @@ int main() {
 	printf("\t|___________________________|___________________________|\n");
 	printf("\t|   Arreglos con punteros   |     Matriz con punteros   |\n");
 	printf("\t|                           |                           |\n");
-	printf("\t| (1) Arreglo con decimales | * (4) Matriz 3x3 suma Posi. |\n");
+	printf("\t| (1) Arreglo con decimales |   (4) Matriz 3x3 suma Posi. |\n");
 	printf("\t| (2) Tamano N1xN2 con cero |   (5) Matriz 3x3 llenado aut|\n");
 	printf("\t| (3) Matriz + operaciones  |   (6) Matriz 3x3 N. Primos  |\n");
 	printf("\t|---------------------------|---------------------------|\n");
@@ -1019,32 +1019,43 @@ void punto2b(){
 
 }
 void punto2a(){
-	float matriz[3][3]={{0,0,0},{0,0,0},{0,0,0}},*p_matriz,acum=0;
-	int i,j;
-	p_matriz=&matriz[0][0];
-
+	int *p_matriz,*vec;
+	p_matriz=(int *) malloc(3 * 3 * sizeof(int));
+	vec=(int *) malloc(9 * sizeof(int));
+	int i,j,acum=0;
 	printf("Ingrese 9 numero a la matriz\n");
 		for ( i = 0; i < 3; i++) {
 			for ( j = 0; j < 3; j++) {
-					scanf("%f",&*(p_matriz + i + j *3));
+									fflush(stdin);
+									scanf("%i",&*(p_matriz + i + j * 3));fflush(stdin);
 			}
 		}
+		fflush(stdin);
 		for (i = 0; i < 3; i++) {
-			for (j = 0; j < 3; j++) {
-					acum += *(p_matriz + i + j * 3);
-					printf("\t\tFila (%d) Columna (%d) contiene [%.2f]\n",i+1,j+1,*(p_matriz + i + j * 3));
-			}
-			printf("\n");
-		}
-		for (i = 0; i < 3; i++) {
-			for (j = 0; j < 3; j++) {
-					acum += *(p_matriz + i + j * 3);
-			}
-			printf("\n");
-		}
+				for (j = 0; j < 3; j++) {
+					fflush(stdin);
+						*(vec+acum) = *(p_matriz + i + j * 3);fflush(stdin);
+						printf("\t - [%i]",*(vec + acum));
+						acum++;
+				}
+				printf("\n");
+				fflush(stdin);
+			}acum=0;
+		fflush(stdin);
 
+		for (i = 0; i < 9; i++) {
+					fflush(stdin);
+						acum  += *(vec+i);
+			}
+
+		for (i = 0; i < 3; i++) {
+			for (j = 0; j < 3; j++) {
+			}
+			printf("\n");
+		}printf("\n");
 		printf("La suma de todas las posiciones es: [%i]\n",acum);
 }
+
 void punto1c() {
 	float matriz[4][4],*p_matriz;
 	int i,j;
