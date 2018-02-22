@@ -4,7 +4,7 @@
 #include <math.h>
 #include <string.h>
 #include <stdlib.h>
-//memoria dinamica no asigna bloque si no donde hallá espacio??
+//memoria dinamica no asigna bloque si no donde hallÃ¡ espacio??
 //liberar memoria free() - https://www.tutorialspoint.com/c_standard_library/c_function_free.htm
 void punto4f();
 void punto4e();
@@ -40,7 +40,7 @@ int main() {
 	system("color f4");
 	int op;
 	printf("\n\n");
-	printf("\t|_______________________________________________________|\n");
+	printf("\t+_______________________________________________________+\n");
 	printf("\t|              *        Ejercicios       *              |\n");
 	printf("\t|___________________________|___________________________|\n");
 	printf("\t|                #    Elija una opcion                  |\n");
@@ -518,7 +518,7 @@ void punto4b(){
 	 	struct estudiantes *grupo[cantidadEstudiantes];
 		system("cls");
 	 	while(ciclo < cantidadEstudiantes){
-			grupo[ciclo]=(struct estudiantes *) malloc(sizeof(struct estudiantes));//aumenta el tamaño del vector como pushback();
+			grupo[ciclo]=(struct estudiantes *) malloc(sizeof(struct estudiantes));//aumenta el tamaÃ±o del vector como pushback();
 	 		fflush( stdin );
 	 		printf("\nIngrese el nombre del estudiante # %i  ",ciclo+1);
 	 		scanf("%s",&grupo[ciclo]->nombre);
@@ -563,7 +563,7 @@ void punto4a(){
 		char categoria[10];
 	};
 	int cant=0,i;
-	printf("¿cuantos jugadores vas a registrar?\n");
+	printf("Â¿cuantos jugadores vas a registrar?\n");
 	scanf("%i",&cant);fflush( stdin );
 
 	struct competidor *p_perso[cant];
