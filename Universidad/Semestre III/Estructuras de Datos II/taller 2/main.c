@@ -47,7 +47,7 @@ int main() {
 	printf("\t|___________________________|___________________________|\n");
 	printf("\t|   Arreglos con punteros   |     Matriz con punteros   |\n");
 	printf("\t|                           |                           |\n");
-	printf("\t| (1) Arreglo con decimales | Terminar(4) Matriz 3x3 suma Posi. |\n");
+	printf("\t| (1) Arreglo con decimales | * (4) Matriz 3x3 suma Posi. |\n");
 	printf("\t| (2) Tamano N1xN2 con cero |   (5) Matriz 3x3 llenado aut|\n");
 	printf("\t| (3) Matriz + operaciones  |   (6) Matriz 3x3 N. Primos  |\n");
 	printf("\t|---------------------------|---------------------------|\n");
@@ -57,14 +57,14 @@ int main() {
 	printf("\t| (8) Un N. es primo        |   (20 Struct estudiante   |\n");
 	printf("\t| (9) arreglo x10 N. par?   |   (21 Struct empresa      |\n");
 	printf("\t| (10 arreglo xN  N. menor  |   (22 Struct Aninados Alu.|\n");
-	printf("\t| (11 arreglo memoria dina. |TERMINAR(23  ||  N. alumnos     |\n");
-	printf("\t| (12 arreglo busqueda N.   |proce(24) Struct P. Discapa.  |\n");
+	printf("\t| (11 arreglo memoria dina. | * (23  ||  N. alumnos     |\n");
+	printf("\t| (12 arreglo busqueda N.   | * (24) Struct P. Discapa.  |\n");
 	printf("\t| (13 cantidad de vocales   |           Cristian        |\n");
 	printf("\t| (14 || en string          |           Alexander       |\n");
 	printf("\t| (15 Suma matriz dina.     |           Marin           |\n");
 	printf("\t| (16 Opuesta matriz din    |           Aguirre         |\n");
 	printf("\t| (17 Struct Alumno         |           ID              |\n");
-	printf("\t| (18 Struct Ciclista       |           1.112.792.674   |\n");
+	printf("\t| (18 Struct Ciclista       |        1.112.792.674      |\n");
 	printf("\t|---------------------------|---------------------------|\n");
 	printf("\t|_______________________(0)Salir________________________|\n");
 
