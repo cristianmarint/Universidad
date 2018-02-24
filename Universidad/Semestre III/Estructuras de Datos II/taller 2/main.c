@@ -755,10 +755,10 @@ void punto3h(){
 	fflush(stdin);
 	int laa=0,lae=0,lai=0,lao=0,lau=0;
 	int i;
-	char pal[25],*p_pal;
+	char pal[100],*p_pal;
 	printf("\n\n");
 	printf("Ingrese una palabra\n");
-	scanf("%s",&pal);
+	fgets(pal,100,stdin);
 	strupr(pal);
 	p_pal=&pal[0];
 
