@@ -784,7 +784,7 @@ void punto3h(){
 		}
 		p_pal++;
 	}
-	printf("En la palabra: %s hay:\n %i a's. \n %i e's \n %i i's \n %i o's\n %i u's",*p_pal,laa,lae,lai,lao,lau);
+	printf("En la palabra: %s hay:\n %i a's. \n %i e's \n %i i's \n %i o's\n %i u's",pal,laa,lae,lai,lao,lau);
 	getch();
 }
 void punto3g(){
