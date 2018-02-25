@@ -4,8 +4,9 @@
 #include <math.h>
 #include <string.h>
 #include <stdlib.h>
-//memoria dinamica no asigna bloque si no donde hallÃ¡ espacio??
+//memoria dinamica no asigna bloque si no donde hallÃƒÂ¡ espacio??
 //liberar memoria free() - https://www.tutorialspoint.com/c_standard_library/c_function_free.htm
+
 void punto4f();
 void punto4e();
 void punto4d();
@@ -371,17 +372,17 @@ void punto4e(){
 	struct alumno *perso[cant];
 
  for(ciclo=0;ciclo<cant;ciclo++){
-		 perso[cant]=(struct alumno *) malloc(sizeof(struct alumno));
+		 perso[ciclo]=(struct alumno *) malloc(sizeof(struct alumno));
 		fflush( stdin );
-		printf("Ingrese el nombre del alumno\n");
-		scanf("%s",&perso[ciclo]->nombre);fflush( stdin );
+		printf("Ingrese el nombre del alumno %i\n",ciclo+1);
+		gets(perso[ciclo]->nombre);
 		printf("Ingrese el sexo del alumno Masculino o Femenino\n");
 		scanf("%s",&perso[ciclo]->sexo);fflush( stdin );
 		printf("Ingrese la edad del alumno\n");
 		scanf("%i",&perso[ciclo]->edad);fflush( stdin );
 		printf("A continuacion ingrese las 3 notas en su respectivo orden\n");
 		scanf("%f\n %f\n %f",&perso[ciclo]->estu.nota1,&perso[ciclo]->estu.nota2,&perso[ciclo]->estu.nota3);fflush( stdin );
-
+		printf("\n\n\n");
 		perso[ciclo]->estu.promedio=(perso[ciclo]->estu.nota1+perso[ciclo]->estu.nota2+perso[ciclo]->estu.nota3)/3;
 	}
  for(ciclo=0;ciclo<cant;ciclo++){
@@ -518,7 +519,7 @@ void punto4b(){
 	 	struct estudiantes *grupo[cantidadEstudiantes];
 		system("cls");
 	 	while(ciclo < cantidadEstudiantes){
-			grupo[ciclo]=(struct estudiantes *) malloc(sizeof(struct estudiantes));//aumenta el tamaÃ±o del vector como pushback();
+			grupo[ciclo]=(struct estudiantes *) malloc(sizeof(struct estudiantes));//aumenta el tamaÃƒÂ±o del vector como pushback();
 	 		fflush( stdin );
 	 		printf("\nIngrese el nombre del estudiante # %i  ",ciclo+1);
 	 		scanf("%s",&grupo[ciclo]->nombre);
@@ -563,7 +564,7 @@ void punto4a(){
 		char categoria[10];
 	};
 	int cant=0,i;
-	printf("Â¿cuantos jugadores vas a registrar?\n");
+	printf("Ã‚Â¿cuantos jugadores vas a registrar?\n");
 	scanf("%i",&cant);fflush( stdin );
 
 	struct competidor *p_perso[cant];
