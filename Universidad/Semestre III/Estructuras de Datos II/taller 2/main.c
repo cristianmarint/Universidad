@@ -58,7 +58,7 @@ int main() {
 	printf("\t| (8) Un N. es primo        | (20 Struct estudiante     |\n");
 	printf("\t| (9) arreglo x10 N. par?   | (21 Struct empresa        |\n");
 	printf("\t| (10 arreglo xN  N. menor  | (22 Struct Aninados Alu.  |\n");
-	printf("\t| (11 arreglo memoria dina. | *(23  ||  N. alumnos      |\n");
+	printf("\t| (11 arreglo memoria dina. |  (23  ||  N. alumnos      |\n");
 	printf("\t| (12 arreglo busqueda N.   | *(24) Struct P. Discapa.  |\n");
 	printf("\t| (13 cantidad de vocales   |           Cristian        |\n");
 	printf("\t| (14 || en string          |           Alexander       |\n");
