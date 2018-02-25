@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdbool.h>
-#include <time.h>
-#include <math.h>
+#include <stdbool.h>//tipo de dato boleano
+#include <time.h>//numeros randoms
+#include <math.h>//funciones patematicas Pow()
 #include <string.h>
 #include <stdlib.h>
 //memoria dinamica no asigna bloque si no donde hallÃƒÂ¡ espacio??
@@ -58,8 +58,8 @@ int main() {
 	printf("\t| (8) Un N. es primo        | (20 Struct estudiante     |\n");
 	printf("\t| (9) arreglo x10 N. par?   | (21 Struct empresa        |\n");
 	printf("\t| (10 arreglo xN  N. menor  | (22 Struct Aninados Alu.  |\n");
-	printf("\t| (11 arreglo memoria dina. |  (23  ||  N. alumnos      |\n");
-	printf("\t| (12 arreglo busqueda N.   | *(24) Struct P. Discapa.  |\n");
+	printf("\t| (11 arreglo memoria dina. | (23  ||  N. alumnos       |\n");
+	printf("\t| (12 arreglo busqueda N.   | (24) Struct P. Discapa.   |\n");
 	printf("\t| (13 cantidad de vocales   |           Cristian        |\n");
 	printf("\t| (14 || en string          |           Alexander       |\n");
 	printf("\t| (15 Suma matriz dina.     |           Marin           |\n");
@@ -305,50 +305,61 @@ void punto4f(){
 		char nombre[40];
 		bool dis;
 	};
-	int cant=0,i,sino=3,cantDis=0;
-	printf("Que cantidad de personas desea ingresar\n");
-	scanf("%d\n",&cant);
+	struct personadis{
+		char tipoDis[50];
+	};
+	int cant=0,i,sino,cantDis=0;
+	printf("Que cantidad de personas desea ingresar?\n");
+	scanf("%d",&cant);
 	struct persona *per[cant];
+	struct personadis *perDis[cant];
 
 	for(i=0;i<cant;i++){
 		per[i]=(struct persona *) malloc(sizeof(struct persona));
 		printf("Ingrese el nombre de la persona # %i\n",i+1);
-		scanf("%s\n",&per[i]->nombre);
+		scanf("%s",&per[i]->nombre);
 		printf("Es la persona discapacidad? 1) Si 2) No\n");
-		scanf("%i\n",&sino);
+		scanf("%i",&sino);
 
 		if(sino==1){
-			per[i]->dis= true;
-			cantDis++;
+			per[i]->dis = true;
 				}else{
-						if (sino==2) {
+						if (sino == 2) {
 							per[i]->dis= false;
+						}else{
+							printf("No asignado\n");
 						}
 				}
+				printf("\n\n");
 		}
-		// punto4fverdadero(per,cantDis);
+
+		int ciclo=0;
+		printf("\n\n");
+		for (i = 0; i < cant; i++) {
+			if(per[i]->dis == true){
+				  perDis[i]=(struct personadis *) malloc(sizeof(struct personadis));
+
+					printf("Ingrese la discapacidad de %s\n",per[i]->nombre);
+					scanf("%s",&perDis[i]->tipoDis);
+			}
+		}
+		printf("\n\n");
+		for(i=0;i<cant;i++){
+				if(per[i]->dis == true){
+					printf("\t la discapacidad de %s es: %s\n",per[i]->nombre,perDis[i]->tipoDis);
+
+				}
+		}
+		printf("\n\n");
+		printf("Las personas restantes no tiene.\n");
+		for(i=0;i<cant;i++){
+				if(per[i]->dis != true){
+					printf("\t  %s no es discapacitado\n",per[i]->nombre);
+
+				}
+		}
 
 }
-// void punto4fverdadero(struct per2[],int cantDis){
-// 	struct dis{
-// 		char nombre[30];
-// 		char tipoDis[50];
-// 	};
-// 	int i;
-// 	struct dis *perDis[cantDis];
-// 	for (i = 0; i < cantDis; i++) {
-// 		perDis[i]=(struct dis *) malloc(sizeof(struct dis));
-// 		if(per2[i]->dis==true){
-// 			printf("Que discapacidad tiene %s\n",per2[i]->tipoDis);
-// 			perDis[i]->nombre=per2[i]->nombre;
-// 		}
-// 	}
-//
-// 	printf("Lista de discapacitados y su discapacidad\n");
-// 	for (i = 0; i < cantDis; i++) {
-// 		printf("%s Sufre de: %s\n",perDis[i]->nombre,perDis[i]->tipoDis);
-// 	}
-// }
 void punto4e(){
 	struct promedio{
 		float nota1;
