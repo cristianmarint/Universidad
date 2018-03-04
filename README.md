@@ -21,5 +21,6 @@ _Tabla de contenido_
 | ------------ | -------------  |
 | `Estructura de datos II` | [Taller 1](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/taller%201/main.c) |
 | - | [Taller 2](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/taller%202/main.c) |
+|-|[Proyecto corte I](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/Proyecto%20Corte%201/main.cpp)|
 
 **Clean**  _Code_  `for` all
