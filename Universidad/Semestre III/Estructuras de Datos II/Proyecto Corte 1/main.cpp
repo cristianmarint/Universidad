@@ -407,7 +407,7 @@ void modificarClientes(){
 		scanf("%s",&(clientes+id)->nombre);
 		printf("Ingrese la direccion del cliente\n");
 		scanf("%s",&(clientes+id)->direccion);
-		printf("Ingrese la cedula del cliente\n");
+		printf("Ingrese el telefono del cliente\n");
 		scanf("%f",&(clientes+id)->telefono);
 		printf("\n\n");
 
@@ -490,4 +490,4 @@ void inforDefectoClientes(){
 
 
 
-// c: Good vibes 
+//Code with good vibes Cristian Marín
