@@ -56,6 +56,7 @@ struct productos product[1000],*productos=product;
 struct factura fact[1000],*factura=fact;
 
 int main() {
+	system("color f4");
 	inforDefectoClientes();
 	inforDefectoProductos();
 	factDefecto();
