@@ -240,13 +240,14 @@ void facturaDeCliente() {
 }
 
 void crearFacturas(){
-	int clienteEstado=0,cantidadFacturas=0,cantidadProductosCompra=0,i=0,j=0,k=0,queProducto=0;
+	int clienteEstado=0,cantidadFacturas=0,cantidadProductosCompra=0,i=0,j=0,k=0,queProducto=0,x;
 	float id=0;
 	printf("Esta el cliente registrado? 1) si 2) no\n");
 	scanf("%i",&clienteEstado);
 	printf("Cuantas facturas va a ingresar?\n");
 	scanf("%i",&cantidadFacturas);
-
+	//guarda la cantidad anterior de...facturas
+	x=cicloFactura;
 	switch (clienteEstado) {
 		case 1:
 		printf("*************************************************\n\n");
@@ -338,23 +339,26 @@ void factDefecto(){
 
 void modificarProductos() {
 	int id;
+	printf("No se incluye los productos que el sistema carga por defecto.\n");
 	printf("Que producto ingresado deseas modificar?\n");
 	scanf("%i",&id);
 	id+=2;
 
 		printf("\n\n");
-		printf("Ingrese la cedula del cliente\n");
+		printf("Ingrese el valor del del producto\n");
 		scanf("%f",&(productos+id)->valor);
-		printf("Ingrese el nombre del cliente\n");
+		printf("Ingrese el nombre del del producto\n");
 		scanf("%s",&(productos+id)->nombre);
 		printf("\n\n");
 }
 void ingresarProductos(){
-	int i,n;
-	printf("Cuentos productos va a Ingresar?\n");
+	int i,n=0,x;
+	printf("Cuantos productos va a Ingresar?\n");
 	scanf("%i",&n);
+	//guarda la cantidad anterior de... productos
+	x=cicloProductos;
 	printf("\n\n");
-	for(i=cicloProductos;i<3+n;i++){
+	for(i=cicloProductos;i<x+n;i++){
 		(productos+i)->id=cicloProductos;
 		printf("Ingrese el valor del producto\n");
 		scanf("%f",&(productos+i)->valor);
@@ -390,6 +394,9 @@ void inforDefectoProductos(){
 void modificarClientes(){
 	// no cuenta los que creador por mi
 	int id;
+	printf("No se incluye los clientes que el sistema carga por defecto.\n");
+	system("pause");
+	system("cls");
 	printf("Que cliente ingresado deseas modificar?\n");
 	scanf("%i",&id);
 	id+=2;
@@ -407,11 +414,13 @@ void modificarClientes(){
 
 }
 void ingresarClientes(){
-	int i,n;
+	int i,n=0,x;
 	printf("Cuantos clientes va a Ingresar?\n");
 	scanf("%i",&n);
+	//guarda la cantidad anterior de... clientes
+	x=cicloClientes;
 	printf("\n\n");
-	for(i=cicloClientes;i<3+n;i++){
+	for(i=cicloClientes;i<x+n;i++){
 		(clientes+i)->id=cicloClientes;
 		printf("Ingrese la cedula del cliente\n");
 		scanf("%f",&(clientes+i)->cedula);
