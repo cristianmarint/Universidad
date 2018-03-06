@@ -215,24 +215,23 @@ void facturaDeCliente() {
 	int idClienteBusquedaFacturas,i=0,largoChar=0;
 	char nombreClienteBusquedaFacturas[30];
 
-	printf("Si no conoce el ID lo puede consultar en la opcion #1\n");
+	printf("Si no conoce el ID lo puede consultar en la opcion #1\n\n");
 	printf("Ingrese el ID del cliente para consultar sus facturas\n");
 	scanf("%i",&idClienteBusquedaFacturas);
-	printf("id buscado\n",idClienteBusquedaFacturas);
 	for ( i = 0; i < cicloClientes; i++) {
 		if(	idClienteBusquedaFacturas == (clientes+i)->id){
 			strcpy(nombreClienteBusquedaFacturas,(clientes+i)->nombre);
 		}
 	}
-	printf("nombre que se busca--->%s\n",nombreClienteBusquedaFacturas );
+
 	printf("\n\n");
 	for ( i = 0; i < cicloFactura; i++) {
 		if( strncmp(nombreClienteBusquedaFacturas,(factura+i)->cliente,30) == 0 ){
 			printf("Id factura: %i \n",(factura+i)->id);
+			printf("Nombre del cliente: %s \n",(factura+i)->cliente);
 			printf("Cantidad %i \n",(factura+i)->cantidad);
 			printf("Valor producto %.1f \n",(factura+i)->valor);
-			printf("Nombre del cliente %s \n",(factura+i)->cliente);
-			printf("Nombre del producto %s \n",(factura+i)->producto);
+			printf("Nombre del producto: %s \n",(factura+i)->producto);
 			printf("Estado factura %d \n",(factura+i)->estado);
 			printf("\n\n");
 		}
@@ -251,7 +250,7 @@ void crearFacturas(){
 	switch (clienteEstado) {
 		case 1:
 		printf("*************************************************\n\n");
-				for(i=cicloFactura;i<cantidadFacturas+3;i++){
+				for(i=cicloFactura;i<cantidadFacturas+x;i++){
 					printf("Ingrese el C.C. del cliente\n" );
 					scanf("%f",&id);
 					(factura+i)->id=cicloFactura;
@@ -279,7 +278,7 @@ void crearFacturas(){
 		break;
 
 		case 2:
-				for(i=cicloFactura;i<cantidadFacturas+3;i++){
+				for(i=cicloFactura;i<cantidadFacturas+x;i++){
 					(factura+i)->id=cicloFactura;
 
 					printf("Ingrese el nombre del cliente\n");
@@ -491,4 +490,4 @@ void inforDefectoClientes(){
 
 
 
-//
+// c: Good vibes 
