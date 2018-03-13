@@ -104,8 +104,15 @@ case 2:
 break;
 
 case 3:
-		system("cls");
-		modificarClientes();
+
+		if(cicloClientes>3){
+			// printf("Conoce\n", );
+			modificarClientes();
+			system("cls");
+		}else{
+			printf("Ingrese primero clientes para modificarlos\n");
+		}
+
 		system("pause");
 		system("cls");
 		main();
@@ -128,8 +135,13 @@ case 5:
 break;
 
 case 6:
-		system("cls");
-		modificarProductos();
+		if(cicloProductos>3){
+			modificarProductos();
+			system("cls");
+		}else{
+			printf("Ingrese primero productos para modificarlos\n");
+		}
+
 		system("pause");
 		system("cls");
 		main();
@@ -213,10 +225,18 @@ void facturasPagasONoPagas() {
 	}
 }
 void facturaDeCliente() {
-	int idClienteBusquedaFacturas,i=0,largoChar=0;
+	int idClienteBusquedaFacturas,i=0,largoChar=0,op=0;
 	char nombreClienteBusquedaFacturas[30];
 
-	printf("Si no conoce el ID lo puede consultar en la opcion #1\n\n");
+	system("cls");
+	printf("Conoce el ID del Cliente? 1)Si 2)No\n");
+	scanf("%i",&op);
+	if (op==2) {
+		mostrarClientes();
+	}
+	system("pause");
+	system("cls");
+
 	printf("Ingrese el ID del cliente para consultar sus facturas\n");
 	scanf("%i",&idClienteBusquedaFacturas);
 	for ( i = 0; i < cicloClientes; i++) {
@@ -240,10 +260,20 @@ void facturaDeCliente() {
 }
 
 void crearFacturas(){
-	int clienteEstado=0,cantidadFacturas=0,cantidadProductosCompra=0,i=0,j=0,k=0,queProducto=0,x;
+	int clienteEstado=0,cantidadFacturas=0,cantidadProductosCompra=0,i=0,j=0,k=0,queProducto=0,x,op=0;
 	float id=0;
 	printf("Esta el cliente registrado? 1) si 2) no\n");
 	scanf("%i",&clienteEstado);
+	if (clienteEstado==2) {
+			printf("Desea registrarlo? 1) si 2) no\n" );
+			scanf("%i",&op);
+				if (op==1) {
+					ingresarClientes();
+					clienteEstado=1;
+				}
+	}
+	system("cls");
+	printf("\n\n");
 	printf("Cuantas facturas va a ingresar?\n");
 	scanf("%i",&cantidadFacturas);
 	//guarda la cantidad anterior de...facturas
@@ -279,6 +309,7 @@ void crearFacturas(){
 		break;
 
 		case 2:
+				printf("*************************************************\n\n");
 				for(i=cicloFactura;i<cantidadFacturas+x;i++){
 					(factura+i)->id=cicloFactura;
 
@@ -338,18 +369,43 @@ void factDefecto(){
 }
 
 void modificarProductos() {
-	int id;
-	printf("No se incluye los productos que el sistema carga por defecto.\n");
-	printf("Que producto ingresado deseas modificar?\n");
+	int id,op;
+	system("cls");
+	printf("Conoce el ID del producto? 1)Si 2)No\n");
+	scanf("%i",&op);
+	if (op==2) {
+		mostrarProductos();
+	}
+	system("pause");
+	system("cls");
+	op=0;
+	printf("Que producto ingresado (ID) deseas modificar?\n");
 	scanf("%i",&id);
-	id+=2;
 
-		printf("\n\n");
-		printf("Ingrese el valor del del producto\n");
-		scanf("%f",&(productos+id)->valor);
+	printf("Que desea modificar: \n 1)Nombre\n 2)Valor\n 3)Todo\n");
+	scanf("%i",&op);
+	switch (op) {
+		case 1:
 		printf("Ingrese el nombre del del producto\n");
 		scanf("%s",&(productos+id)->nombre);
-		printf("\n\n");
+		break;
+
+		case 2:
+		printf("Ingrese el valor del del producto\n");
+		scanf("%f",&(productos+id)->valor);
+		break;
+
+		case 3:
+			printf("\n\n");
+			printf("Ingrese el valor del del producto\n");
+			scanf("%f",&(productos+id)->valor);
+
+			printf("Ingrese el nombre del del producto\n");
+			scanf("%s",&(productos+id)->nombre);
+			printf("\n\n");
+		break;
+	}
+
 }
 void ingresarProductos(){
 	int i,n=0,x;
@@ -393,15 +449,44 @@ void inforDefectoProductos(){
 
 void modificarClientes(){
 	// no cuenta los que creador por mi
-	int id;
-	printf("No se incluye los clientes que el sistema carga por defecto.\n");
+	int id,op;
+	system("cls");
+	printf("Conoce el ID del cliente? 1)Si 2)No\n");
+	scanf("%i",&op);
+	if (op==2) {
+		mostrarClientes();
+	}
 	system("pause");
 	system("cls");
-	printf("Que cliente ingresado deseas modificar?\n");
+	printf("Que cliente ingresado (id) deseas modificar?\n");
 	scanf("%i",&id);
-	id+=2;
+	op=0;
+	printf("Que desea modificar?\n 1)Cedula \n 2)Nombre\n 3)Direccion\n 4)Telefono \n 5)Todo\n" );
+	scanf("%i",&op);
+	printf("\n\n");
 
-		printf("\n\n");
+	switch (op) {
+		case 1:
+		printf("Ingrese la cedula del cliente\n");
+		scanf("%f",&(clientes+id)->cedula);
+		break;
+
+		case 2:
+		printf("Ingrese el nombre del cliente\n");
+		scanf("%s",&(clientes+id)->nombre);
+		break;
+
+		case 3:
+		printf("Ingrese la direccion del cliente\n");
+		scanf("%s",&(clientes+id)->direccion);
+		break;
+
+		case 4:
+		printf("Ingrese el telefono del cliente\n");
+		scanf("%f",&(clientes+id)->telefono);
+		break;
+
+		case 5:
 		printf("Ingrese la cedula del cliente\n");
 		scanf("%f",&(clientes+id)->cedula);
 		printf("Ingrese el nombre del cliente\n");
@@ -411,6 +496,9 @@ void modificarClientes(){
 		printf("Ingrese el telefono del cliente\n");
 		scanf("%f",&(clientes+id)->telefono);
 		printf("\n\n");
+		break;
+	}
+
 
 }
 void ingresarClientes(){
@@ -491,4 +579,4 @@ void inforDefectoClientes(){
 
 
 
-//Code with good vibes Cristian Marín
+//Code with good vibes Cristian Mar�n
