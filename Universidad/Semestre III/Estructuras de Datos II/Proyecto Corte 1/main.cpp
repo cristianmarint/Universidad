@@ -313,7 +313,7 @@ void crearFacturas(){
 				for(i=cicloFactura;i<cantidadFacturas+x;i++){
 					(factura+i)->id=cicloFactura;
 
-					printf("Ingrese el nombre del cliente\n");
+					printf("Ingrese el nombre del cliente (Sin espacios)\n");
 					scanf("%s",&(factura+i)->cliente);
 
 					printf("Ingrese el id del producto que compra %s\n",(factura+i)->cliente);
@@ -386,7 +386,7 @@ void modificarProductos() {
 	scanf("%i",&op);
 	switch (op) {
 		case 1:
-		printf("Ingrese el nombre del del producto\n");
+		printf("Ingrese el nombre del del producto (Sin espacios)\n");
 		scanf("%s",&(productos+id)->nombre);
 		break;
 
@@ -418,7 +418,7 @@ void ingresarProductos(){
 		(productos+i)->id=cicloProductos;
 		printf("Ingrese el valor del producto\n");
 		scanf("%f",&(productos+i)->valor);
-		printf("Ingrese el nombre del producto\n");
+		printf("Ingrese el nombre del producto (Sin espacios)\n");
 		scanf("%s",&(productos+i)->nombre);
 		printf("\n\n");
 		cicloProductos++;
@@ -472,7 +472,7 @@ void modificarClientes(){
 		break;
 
 		case 2:
-		printf("Ingrese el nombre del cliente\n");
+		printf("Ingrese el nombre del cliente (Sin espacios)\n");
 		scanf("%s",&(clientes+id)->nombre);
 		break;
 
@@ -489,7 +489,7 @@ void modificarClientes(){
 		case 5:
 		printf("Ingrese la cedula del cliente\n");
 		scanf("%f",&(clientes+id)->cedula);
-		printf("Ingrese el nombre del cliente\n");
+		printf("Ingrese el nombre del cliente (Sin espacios)\n");
 		scanf("%s",&(clientes+id)->nombre);
 		printf("Ingrese la direccion del cliente\n");
 		scanf("%s",&(clientes+id)->direccion);
@@ -512,7 +512,7 @@ void ingresarClientes(){
 		(clientes+i)->id=cicloClientes;
 		printf("Ingrese la cedula del cliente\n");
 		scanf("%f",&(clientes+i)->cedula);
-		printf("Ingrese el nombre del cliente\n");
+		printf("Ingrese el nombre del cliente (Sin espacios)\n");
 		scanf("%s",&(clientes+i)->nombre);
 		printf("Ingrese la direccion del cliente\n");
 		scanf("%s",&(clientes+i)->direccion);
@@ -579,4 +579,4 @@ void inforDefectoClientes(){
 
 
 
-//Code with good vibes Cristian Mar�n
+//Code with good vibes Cristian Marin
