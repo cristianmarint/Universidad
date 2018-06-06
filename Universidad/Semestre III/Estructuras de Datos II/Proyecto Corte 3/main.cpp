@@ -1,3 +1,13 @@
+
+
+// Proyecto desarrolla por:
+// Cristian Alexander Marín Aguirre
+// Cristian Steven Gonzalez Arango
+// Edwin Lopez
+
+
+
+
 #include <iostream>
 // libreria basica de c++ cout,cin,endl,stdin,fflush... etc.
 
@@ -94,7 +104,7 @@ int main() {
 	printf("\t\t\t\t|   0)Salir %c                      |\n",153);
 	cout<<"\t\t\t\t|                                  |"<<endl;
 	cout<<"\t\t\t\t+----------------------------------+"<<endl;
-    	
+
     cin>>op;fflush(stdin);
 
 
@@ -224,7 +234,7 @@ void reemplazar(nodo * arbol,nodo * nuevoNodo){
 }
 
 nodo *minimo(nodo * arbol){
-	// va hasta lo  mas izquierdo y lo retorna 
+	// va hasta lo  mas izquierdo y lo retorna
 	if(arbol == NULL){
 		return NULL;
 	}
@@ -236,7 +246,7 @@ nodo *minimo(nodo * arbol){
 }
 
 void eliminarnodo(nodo * nodoEliminar){
-	// recibe el nodo a eliminar 
+	// recibe el nodo a eliminar
     if(nPer == 1){
         vaciar(arbol);
         arbol = NULL;
@@ -289,7 +299,7 @@ void postorden(nodo *arbol){
 	// 10
 	// 		9
 	// 			8
-	// 
+	//
 	// imprime: 8 - 9 - 25 - 40 - 30 - 10
 
 	if(arbol == NULL){
@@ -311,8 +321,8 @@ void preorden(nodo *arbol){
 	// 10
 	// 		9
 	// 			8
-	// 
-	// imprime: 10 - 9 - 8 - 30 - 25 - 40 
+	//
+	// imprime: 10 - 9 - 8 - 30 - 25 - 40
 
 	if(arbol == NULL){
 		return;
@@ -332,7 +342,7 @@ void inorden(nodo *arbol){
 	// 10
 	// 		9
 	// 			8
-	// 
+	//
 	// imprime: 8 - 9 - 10 - 25 - 30 - 40
 
 	if(arbol == NULL){
@@ -392,7 +402,7 @@ void insertar(nodo *&arbol,nodo * padre,persona &datos){
 }
 
 nodo *crearnodo(nodo *padre,persona &datos){
-// recibe datos (que es la estructura con la informacion cargada) 
+// recibe datos (que es la estructura con la informacion cargada)
 // crea un nodo
 // nodo padre es asignado al nodo creado
 
@@ -414,7 +424,7 @@ nodo *crearnodo(nodo *padre,persona &datos){
 }
 
 void inicio(){
-	// limpia pantalla 
+	// limpia pantalla
 	cout<<"\n"<<endl;
 	system("pause");
 	system("cls");
