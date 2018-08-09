@@ -1,7 +1,5 @@
 [Pagina Principal](https://cristianmarint.github.io/Universidad)
 
-<link rel="shortcut icon" type="image/x-icon" href="https://github.com/cristianmarint/Universidad/blob/master/favicon.png">
-
 <img style="margin-left: 40%;border-radius:50%" src="https://avatars1.githubusercontent.com/u/31068007?s=400&u=9756efad59b4faf5ff84451ff703e2cd3e193d6e&v=4" width="100" height="100"  >
 
 # Semestre II
