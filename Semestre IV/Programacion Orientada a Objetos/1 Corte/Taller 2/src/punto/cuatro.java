@@ -67,9 +67,59 @@ public class cuatro {
 			break;
 			
 			case 2:
+				switch(nuevo){
+				case 1:
+					resultado=(valor/0.000976563);
+				break;
+				
+				case 2:
+					resultado=(valor);
+				break;
+				
+				case 3:
+					resultado=(valor*1024);
+				break;
+				
+				case 4:
+					resultado=(valor*1048576);
+				break;
+				
+				case 5:
+					resultado=(valor*1073741824 );
+				break;
+				
+				case 6:
+					//resultado=(valor*8589934592);
+				break;
+			}
 			break;
 			
 			case 3:
+				switch(nuevo){
+				case 1:
+					resultado=(valor/9.5367400000);
+				break;
+				
+				case 2:
+					resultado=(valor/0.000976563);
+				break;
+				
+				case 3:
+					resultado=(valor);
+				break;
+				
+				case 4:
+					resultado=(valor*1024);
+				break;
+				
+				case 5:
+					resultado=(valor*1048576 );
+				break;
+				
+				case 6:
+					//resultado=(valor*8388608);
+				break;
+			}
 			break;
 			
 			case 4:
@@ -83,9 +133,12 @@ public class cuatro {
 			
 			}
 				
+			System.out.println(" ---------> El resultado es: ["+resultado+"]");
+			System.out.println(" --------- ");
+			System.out.println(" --------- ");
+			System.out.println(" --------- ");
 		}
 		
-		System.out.println("El resultado es: ["+resultado+"]");
 
 	}
 
