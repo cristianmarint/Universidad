@@ -45,23 +45,23 @@ public class cuatro {
 					break;
 					
 					case 2:
-						resultado=(valor*1024);
+						resultado=(valor*1000);
 					break;
 					
 					case 3:
-						resultado=(valor*1048575.91);
+						resultado=(valor*1000000);
 					break;
 					
 					case 4:
-						resultado=(valor*1073741729.88);
+						resultado=(valor*1000000000);
 					break;
 					
 					case 5:
-						resultado=(valor*1099511531398.98);
+//						resultado=(valor*1000000000000);
 					break;
 					
 					case 6:
-						//resultado=(valor*8796093022208);
+//						resultado=(valor*8000000000000);
 					break;
 				}
 			break;
@@ -69,7 +69,7 @@ public class cuatro {
 			case 2:
 				switch(nuevo){
 				case 1:
-					resultado=(valor/0.000976563);
+					resultado=(valor/0.001);
 				break;
 				
 				case 2:
@@ -77,19 +77,19 @@ public class cuatro {
 				break;
 				
 				case 3:
-					resultado=(valor*1024);
+					resultado=(valor*1000);
 				break;
 				
 				case 4:
-					resultado=(valor*1048576);
+					resultado=(valor*1000000);
 				break;
 				
 				case 5:
-					resultado=(valor*1073741824 );
+					resultado=(valor*1000000000);
 				break;
 				
 				case 6:
-					//resultado=(valor*8589934592);
+//					resultado=(valor*8000000000);
 				break;
 			}
 			break;
@@ -97,11 +97,11 @@ public class cuatro {
 			case 3:
 				switch(nuevo){
 				case 1:
-					resultado=(valor/9.5367400000);
+					resultado=(valor/0.00002);
 				break;
 				
 				case 2:
-					resultado=(valor/0.000976563);
+					resultado=(valor/0.001);
 				break;
 				
 				case 3:
@@ -109,26 +109,101 @@ public class cuatro {
 				break;
 				
 				case 4:
-					resultado=(valor*1024);
+					resultado=(valor*1000);
 				break;
 				
 				case 5:
-					resultado=(valor*1048576 );
+					resultado=(valor*1000000);
 				break;
 				
 				case 6:
-					//resultado=(valor*8388608);
+					resultado=(valor*8000000);
 				break;
 			}
 			break;
 			
 			case 4:
+				switch(nuevo){
+				case 1:
+					resultado=(valor/0.000000001);
+				break;
+				
+				case 2:
+					resultado=(valor/0.000001);
+				break;
+				
+				case 3:
+					resultado=(valor/0.001);
+				break;
+				
+				case 4:
+					resultado=(valor);
+				break;
+				
+				case 5:
+					resultado=(valor*1000);
+				break;
+				
+				case 6:
+					resultado=(valor*8000);
+				break;
+			}
 			break;
 			
 			case 5:
+				switch(nuevo){
+				case 1:
+					resultado=(valor/0.000000000001);
+				break;
+				
+				case 2:
+					resultado=(valor/0.000000001);
+				break;
+				
+				case 3:
+					resultado=(valor/0.000001);
+				break;
+				
+				case 4:
+					resultado=(valor*0.001);
+				break;
+				
+				case 5:
+					resultado=(valor);
+				break;
+				
+				case 6:
+					resultado=(valor*8);
+				break;
+			}
 			break;
 			
 			case 6:
+				switch(nuevo){
+				case 1:
+					resultado=(valor/0.000000000000125);
+				break;
+				
+				case 2:
+					resultado=(valor/0.000000000125);
+				break;
+				
+				case 3:
+					resultado=(valor/0.0000000125);
+				break;
+				
+				case 4:
+					resultado=(valor/0.000125);
+				break;
+				
+				case 5:
+					resultado=(valor/0.125);
+				break;
+				
+				case 6:
+					resultado=(valor);
+				break;
+			}
 			break;
 			
 			}
