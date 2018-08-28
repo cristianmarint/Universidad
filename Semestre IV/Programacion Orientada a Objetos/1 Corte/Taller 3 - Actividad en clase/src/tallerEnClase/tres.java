@@ -1,4 +1,4 @@
-package test;
+package tallerEnClase;
 
 import java.util.Scanner;
 
