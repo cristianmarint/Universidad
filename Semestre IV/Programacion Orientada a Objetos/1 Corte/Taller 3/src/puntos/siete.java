@@ -2,16 +2,16 @@ package puntos;
 
 import java.util.Scanner;
 
-public class seis {
+public class siete {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner (System.in);
 		
-		float area,l1,l2;
+		float area,l1,l2,l3;
 		
-		System.out.println("Ingresa los valores L1,L2 continuacion:");
+		System.out.println("Ingresa los valores L1,L2L3 continuacion:");
 		
 		
 		l1=sc.nextFloat();
