@@ -9,21 +9,22 @@ public class dieciocho {
 
 		Scanner sc = new Scanner (System.in);
 		
-		float monto,deuda;
 		
-		System.out.println("Ingresa el monto a continuacion:");
-		monto=sc.nextFloat();
-		System.out.println("Ingresa la deuda a continuacion:");
-		deuda=sc.nextFloat();
+		System.out.println("Ingresa nombre del empleado");
+		String nombre = sc.next();
+		System.out.println("Ingresa horas trabajadas del empleado");
+		float horas = sc.nextFloat();
+		System.out.println("Ingresa sueldo por hora del empleado");
+		float porHora = sc.nextFloat();
 		
-		if(monto==deuda) {
-			System.out.println("El cliente esta ha pagado toda sus deudas");
-		}else if(monto>deuda) {
-			System.out.println("Creadito a favor por: "+(monto-deuda));
+		double total=0;
+		
+		if(horas<40) {
+			total = (porHora*horas); 
 		}else {
-			System.out.println("La nueva deuda es de: "+ ((deuda-monto)+(monto*0.03)) );
+			total =  ( (40 * porHora) + ((horas-40)*porHora*1.5) );
 		}
-		
+		 System.out.println("El sueldo del empleado ["+nombre+"] sera de ["+total+"]");
 	}
 
 }
