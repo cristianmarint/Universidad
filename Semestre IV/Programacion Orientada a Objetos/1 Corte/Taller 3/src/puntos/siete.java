@@ -9,18 +9,19 @@ public class siete {
 
 		Scanner sc = new Scanner (System.in);
 		
-		float area,l1,l2,l3;
+		double area;
+		float l2,l1;
 		
-		System.out.println("Ingresa los valores L1,L2L3 continuacion:");
+		System.out.println("Ingresa los valores L1 (Cateto) ,L2 (Cateto) continuacion:");
 		
 		
 		l1=sc.nextFloat();
 		l2=sc.nextFloat();
 		
 		
-		area=l1*l2;
+		area= ( Math.pow(l1, 2) + Math.pow(l2, 2) ) ;
 	
-		System.out.println("El area del cuadrado es: "+area);
+		System.out.println("La hipotenusa del triangulo es: "+ Math.sqrt(area) );
 		
 	}
 
