@@ -10,7 +10,6 @@ public class trece {
 		Scanner sc = new Scanner (System.in);
 		
 		float x1,x2,a,b,c;
-		double res;
 		
 		System.out.println("Ingresa los valores A,B,C a continuacion:");
 		
@@ -18,10 +17,16 @@ public class trece {
 		b=sc.nextFloat();
 		c=sc.nextFloat();
 		
-		float n = -4;
-		double raiz = (Math.sqrt(n*a*c)/ 2*a )  ;
+		double discriminante = ((Math.pow(b,2))-(4*(a*c)));
+		
+		
+		double superior = ( (-b) * ( Math.sqrt( (Math.pow(b,2) - (-4*a*c) )  ) )  );
+		
+		double inferior = (2*a);
+		
+		double res = inferior/superior;
 
-		System.out.println("X = "+raiz);
+		System.out.println("X1 = "+res);
 		
 	}
 
