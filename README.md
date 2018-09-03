@@ -23,7 +23,7 @@ _Tabla de contenido_
 | MATERIA | CORTE |
 | ------------ | -------------  |
 | `Base De Datos II` | |
-| - | [corte 1](link aqui) |
+| - | [corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II/1%20Corte) |
 | `Programación Orientada a Objetos` | |
 | - | [Corte 1](link aqui) |
 
