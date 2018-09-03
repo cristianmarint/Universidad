@@ -5,18 +5,24 @@ import java.util.Scanner;
 public class veinticinco {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub		
+		// TODO Auto-generated method stub	
+		
+		Scanner sc = new Scanner (System.in);
+		
 	
-		int prestamo=200,anos=5;
-		double totalAPagar = (prestamo+(prestamo*0.06));
+		int prestamo=200,anos=5,i;
+		double totalAPagar=prestamo;			
+		for(i=0;i<5;i++) {		
+			totalAPagar = totalAPagar + (prestamo*0.06);			
+		}
 		double cuota = (totalAPagar/anos);
 		double deuda= (totalAPagar);
 		
-		System.out.println("Miguel debera pagar cada año así:");
-		System.out.println(totalAPagar+" | "+cuota+" | "+deuda);
+		System.out.println("Miguel debera pagar cada aÃ±o asÃ­:");
+		//System.out.println(totalAPagar+" | "+cuota+" | "+deuda);
 		
-		for(int i=1;i<=5;i++) {
-			System.out.println("Año:"+i+" Cuota:"+cuota+" Deuda:"+(deuda-(cuota*i))+" Pagado:"+(totalAPagar-(cuota*i)));
+		for(i=0;i<5;i++) {
+			System.out.println("AÃ±o:"+i+" Cuota:"+cuota+" Deuda:"+(deuda-(cuota*i))+" Pagado:"+ (  cuota*i) );
 		}
 		
 		
