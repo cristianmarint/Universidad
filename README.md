@@ -19,9 +19,7 @@ _Tabla de contenido_
 
 | MATERIA | TRABAJO |
 | ------------ | -------------  |
-| `Estructura de datos II` | [Taller 1](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/taller%201/main.c) |
-| - | [Taller 2](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/taller%202/main.c) |
-|-|[Proyecto corte I](https://github.com/cristianmarint/Proyectos-Personales/blob/master/Universidad/Semestre%20III/Estructuras%20de%20Datos%20II/Proyecto%20Corte%201/main.cpp)|
+| `Estructura de datos II` | [-](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
 
 
 # Semestre IV
@@ -32,7 +30,9 @@ _Tabla de contenido_
 | MATERIA | TRABAJO |
 | ------------ | -------------  |
 | `Base De Datos II` | |
-| - | [Taller 1](link aqui) |
+| - | [corte 1](link aqui) |
+| `Programación Orientada a Objetos` | |
+| - | [Corte 1](link aqui) |
 
 
 **Clean**  _Code_  `for` all
