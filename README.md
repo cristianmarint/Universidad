@@ -6,7 +6,7 @@ _Tabla de contenido_
 
 | MATERIA | CORTE |
 | ------------ | -------------  |
-| `Estructura de datos I` | [[master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20II/Estructura%20de%20Datos%20I) 
+| `Estructura de datos I` | [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20II/Estructura%20de%20Datos%20I) 
 
 
 
@@ -15,16 +15,16 @@ _Tabla de contenido_
 
 | MATERIA | CORTE |
 | ------------ | -------------  |
-| `Estructura de datos II` | [[Master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
+| `Estructura de datos II` | [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
 
 
 # Semestre IV
 
 | MATERIA | CORTE |
 | ------------ | -------------  |
-| `Base De Datos II` |  [[Master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II)  |
+| `Base De Datos II` |  [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II)  |
 | ± | [corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II/1%20Corte) |
-| `Programación Orientada a Objetos` |  [[Master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos)  |
+| `Programación Orientada a Objetos` |  [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos)  |
 | ± | [Corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte) |
 
 
