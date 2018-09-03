@@ -19,7 +19,7 @@ _Tabla de contenido_
 
 | MATERIA | TRABAJO |
 | ------------ | -------------  |
-| `Estructura de datos II` | [-](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
+| `Estructura de datos II` | [[Master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
 
 
 # Semestre IV
