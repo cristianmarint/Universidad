@@ -11,7 +11,7 @@ _Tabla de contenido_
 
 
 
-# Semestre III (https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III)
+# Semestre III 
 
 | MATERIA | CORTE |
 | ------------ | -------------  |
