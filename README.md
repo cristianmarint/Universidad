@@ -24,7 +24,7 @@ _Tabla de contenido_
 | ------------ | -------------  |
 | `Base De Datos II` |  [[Master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II)  |
 | ± | [corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II/1%20Corte) |
-| `Programación Orientada a Objetos` | |
+| `Programación Orientada a Objetos` |  [[Master]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos)  |
 | ± | [Corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte) |
 
 
