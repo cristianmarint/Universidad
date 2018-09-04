@@ -1,8 +1,8 @@
-package taller;
+package parcial1;
 
 import java.util.Scanner;
 
-class Punto3 {
+class punto3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
