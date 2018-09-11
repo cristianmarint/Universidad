@@ -17,7 +17,11 @@ public class operaciones {
 	}
 	
 	public void division() {
-		System.out.println(this.n1+" ÷ "+this.n2+" = "+(this.n1/this.n2));
+		if(this.n2>0) {
+			System.out.println(this.n1+" ÷ "+this.n2+" = "+(this.n1/this.n2));
+		}else {
+			System.out.println("El segundo valor debe de ser mayor a cero, numero ingresado ["+this.n2+"]");
+		}
 	}
 	
 	public void suma() {
