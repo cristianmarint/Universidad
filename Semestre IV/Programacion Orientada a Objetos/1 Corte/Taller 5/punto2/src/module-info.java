@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author crist
+ * @author cristianMarinT
  *
  */
 module punto2 {
