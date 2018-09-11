@@ -15,4 +15,17 @@ public class operaciones {
 	public void multiplicacion() {
 		System.out.println(this.n1+" * "+this.n2+" = "+(this.n1*this.n2));
 	}
+	
+	public void division() {
+		System.out.println(this.n1+" ÷ "+this.n2+" = "+(this.n1/this.n2));
+	}
+	
+	public void suma() {
+		System.out.println(this.n1+" + "+this.n2+" = "+(this.n1+this.n2));
+	}
+	
+	public void resta() {
+		System.out.println(this.n1+" - "+this.n2+" = "+(this.n1-this.n2));
+	}
+	
 }
