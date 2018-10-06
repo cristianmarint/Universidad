@@ -66,7 +66,7 @@ public class mergesort {
                             vector[k++]=vector2[j++];
                         }
                         while (i<=m){ 
-                                vector[k++]=vector2[i++]; //primera mitad (si los hay)
+                                vector[k++]=vector2[i++];
                         }
 			        }
            }
