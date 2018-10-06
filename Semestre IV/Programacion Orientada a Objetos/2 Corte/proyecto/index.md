@@ -39,9 +39,9 @@ datos este va a tomar una cantidad considerable de tiempo.
 El metodo de ordenamiento de Mergesort representó la siguiente información ordenando vectores.
 
 ```markdown
-public class mergesort {
+public class `mergesort` {
 	
-	public  void mergesort(int vector[],int izq, int der){
+	public  void `mergesort`(int vector[],int izq, int der){
 	    if (izq<der){
 	            int m=(izq+der)/2;
 	            mergesort(vector,izq, m);
@@ -50,7 +50,7 @@ public class mergesort {
 	    }
 	}
 	
-	public static void merge(int vector[],int izq, int m, int der){
+	public static void `merge`(int vector[],int izq, int m, int der){
 		   int i, j, k;
 		   int [] vector2 = new int[vector.length];
 		   for (i=izq; i<=der; i++)
