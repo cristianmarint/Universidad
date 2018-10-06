@@ -36,3 +36,4 @@ _Tabla de contenido_
 
 
 [Pagina Principal](https://cristianmarint.github.io/Universidad)
+[p2](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/)
