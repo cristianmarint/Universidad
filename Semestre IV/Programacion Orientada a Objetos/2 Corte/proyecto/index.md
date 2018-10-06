@@ -187,8 +187,8 @@ public class `quickshort` {
 
 123331231231231231231231231
 
-poner
-![Diagrama Quicksort](https://i./iNUhuhR.png)
+
+![Diagrama Quicksort](https://imgur.com/cU6EMdE)
 
 
 
