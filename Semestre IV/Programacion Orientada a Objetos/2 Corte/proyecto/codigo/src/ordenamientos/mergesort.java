@@ -18,13 +18,16 @@ public class mergesort {
 		             vector2[i]=vector[i];
 
 		             i=izq; j=m+1; k=izq;
-		             while (i<=m && j<=der) //copia el siguiente elemento m�s grande
-		             if (vector2[i]<=vector2[j])
-		                     vector[k++]=vector2[i++];
-		             else
-		                     vector[k++]=vector2[j++];
-		             while (i<=m) //copia los elementos que quedan de la
-		                           vector[k++]=vector2[i++]; //primera mitad (si los hay)
+		             while (i<=m && j<=der){ //copia el siguiente elemento m�s grande
+				if (vector2[i]<=vector2[j]){
+					vector[k++]=vector2[i++];
+				}else{
+					vector[k++]=vector2[j++];
+				}
+				while (i<=m){ //copia los elementos que quedan de la
+						vector[k++]=vector2[i++]; //primera mitad (si los hay)
+				}
+			     }
 		 }
 
 }
