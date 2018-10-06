@@ -134,7 +134,10 @@ public class `heapsort`{
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=253292140&amp;format=interactive"></iframe>
 
-123331231231231231231231231
+Este metodo presenta una ventajas ya que su velocidad de procesado es bastante baja, viendo solo un 
+aumento considerable cuando los datos a ordenar se triplican, en ese punto el tiempo de procesado se ve duplicado.
+Este velocidad que lo puede a ventajar con cantidades menores no destaca al hacerlo con cantidades mucho mas grandes 
+dado que la cantidad de recursos que consumiria se duplica al triplicar la cantidad de datos
 
 ![Diagrama Heapsort](https://i.imgur.com/iNUhuhR.png)
 
