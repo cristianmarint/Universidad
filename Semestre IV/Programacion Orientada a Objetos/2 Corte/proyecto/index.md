@@ -56,8 +56,9 @@ public class mergesort {
 		   for (i=izq; i<=der; i++)
            {
 		             vector2[i]=vector[i];
-
-		             i=izq; j=m+1; k=izq;
+		             i=izq; 
+                     j=m+1; 
+                     k=izq;
 		             while (i<=m && j<=der){ 
 				if (vector2[i]<=vector2[j]){
 					vector[k++]=vector2[i++];
