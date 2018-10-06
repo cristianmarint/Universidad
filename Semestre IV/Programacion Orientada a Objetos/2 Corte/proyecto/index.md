@@ -60,15 +60,15 @@ public class mergesort {
                      j=m+1; 
                      k=izq;
 		             while (i<=m && j<=der){ 
-				if (vector2[i]<=vector2[j]){
-					vector[k++]=vector2[i++];
-				}else{
-					vector[k++]=vector2[j++];
-				}
-				while (i<=m){ 
-						vector[k++]=vector2[i++]; //primera mitad (si los hay)
-				}
-			     }
+                        if (vector2[i]<=vector2[j]){
+                            vector[k++]=vector2[i++];
+                        }else{
+                            vector[k++]=vector2[j++];
+                        }
+                        while (i<=m){ 
+                                vector[k++]=vector2[i++]; //primera mitad (si los hay)
+                        }
+			        }
            }
 		 }
 
