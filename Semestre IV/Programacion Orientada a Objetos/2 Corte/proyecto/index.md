@@ -194,32 +194,3 @@ de la recursividad para disminuir el tiempo que le toma hacer ciertas tareas.
 
 
 ![Diagrama Quicksort](https://i.imgur.com/cU6EMdE.png)
-
-
-
-
-
-
-
-
-
-
-**------------------------------------------------------------------------------------------------------------------------------------------**
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
