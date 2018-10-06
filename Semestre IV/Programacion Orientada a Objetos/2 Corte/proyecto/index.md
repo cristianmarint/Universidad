@@ -1,6 +1,6 @@
-## PROYECTO METODOS DE ORDENAMIENTO [*](https://cristianmarint.github.io/poo/) 
+## PROYECTO METODOS DE ORDENAMIENTO [*](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo) 
 
-### Insercion [Codigo](https://github.com/cristianmarint/poo/blob/master/codigo/src/ordenamientos/insercion.java)
+### Insercion [Codigo](https://github.com/cristianmarint/Universidad/blob/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo/src/ordenamientos/insercion.java)
 
 El metodo de ordenamiento de Insercion representó la siguiente información ordenando vectores.
 
