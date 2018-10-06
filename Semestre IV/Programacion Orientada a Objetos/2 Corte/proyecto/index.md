@@ -22,9 +22,7 @@ public class `insercion`{
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=1173122422&amp;format=interactive"></iframe>
 
-Este metodo presenta una ventaja frente a los demas dado que su implementación es bastante simple,
-sumado a esto, tenemos su velocidad es bastante decente frente a las contidades que se usaron como 
-pruebas.
+Este metodo presenta una ventajas
 
 Por otra parte, al ser un ordenamiento tan simple y sin hacer uso de recursividad para agilizar sus 
 procesos, nos topamos con un ordenamiento que al ser puesto a ordenar una cantidad considerable de
@@ -87,7 +85,7 @@ datos este va a tomar una cantidad considerable de tiempo.
 
 ![Diagrama Mergesort](https://i.imgur.com/Ic0rR8v.png)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**------------------------------------------------------------------------------------------------------------------------------------------**
 
 
 ```markdown
