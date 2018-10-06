@@ -22,7 +22,9 @@ public class `insercion`{
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=1173122422&amp;format=interactive"></iframe>
 
-Este metodo presenta una ventajas
+Este metodo presenta una ventaja frente a los demas dado que su implementación es bastante simple,
+sumado a esto, tenemos su velocidad es bastante decente frente a las contidades que se usaron como 
+pruebas.
 
 Por otra parte, al ser un ordenamiento tan simple y sin hacer uso de recursividad para agilizar sus 
 procesos, nos topamos con un ordenamiento que al ser puesto a ordenar una cantidad considerable de
@@ -75,13 +77,8 @@ public class mergesort {
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=478154806&amp;format=interactive"></iframe>
 
-Este metodo presenta una ventaja frente a los demas dado que su implementación es bastante simple,
-sumado a esto, tenemos su velocidad es bastante decente frente a las contidades que se usaron como 
-pruebas.
-
-Por otra parte, al ser un ordenamiento tan simple y sin hacer uso de recursividad para agilizar sus 
-procesos, nos topamos con un ordenamiento que al ser puesto a ordenar una cantidad considerable de
-datos este va a tomar una cantidad considerable de tiempo.
+Este metodo presenta una ventajas en el ordenamiento de pocos datos, pero su gran desventaja radica en su tiempo de 
+ordenamiento ya que este se dublica al mismo ritmo que aumenta la cantidad de datos que se desea ordenar.
 
 ![Diagrama Mergesort](https://i.imgur.com/Ic0rR8v.png)
 
