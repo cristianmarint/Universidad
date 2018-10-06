@@ -193,7 +193,7 @@ una reduccion particular al aumentar la cantidad de datos que se seleccionan a o
 de la recursividad para disminuir el tiempo que le toma hacer ciertas tareas.
 
 
-![Diagrama Quicksort](https://imgur.com/cU6EMdE)
+![Diagrama Quicksort](https://i.imgur.com/cU6EMdE.png)
 
 
 
