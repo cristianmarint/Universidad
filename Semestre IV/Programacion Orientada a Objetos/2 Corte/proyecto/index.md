@@ -93,47 +93,37 @@ public class `heapsort`{
     { 
         int n = arr.length; 
   
-        // Build heap (rearrange array) 
         for (int i = n / 2 - 1; i >= 0; i--) 
             heapify(arr, n, i); 
   
-        // One by one extract an element from heap 
         for (int i=n-1; i>=0; i--) 
         { 
-            // Move current root to end 
             int temp = arr[0]; 
             arr[0] = arr[i]; 
             arr[i] = temp; 
   
-            // call max heapify on the reduced heap 
             heapify(arr, i, 0); 
         } 
     } 
   
-    // To heapify a subtree rooted with node i which is 
-    // an index in arr[]. n is size of heap 
     void heapify(int arr[], int n, int i) 
     { 
         int largest = i; // Initialize largest as root 
         int l = 2*i + 1; // left = 2*i + 1 
         int r = 2*i + 2; // right = 2*i + 2 
   
-        // If left child is larger than root 
         if (l < n && arr[l] > arr[largest]) 
             largest = l; 
   
-        // If right child is larger than largest so far 
         if (r < n && arr[r] > arr[largest]) 
             largest = r; 
   
-        // If largest is not root 
         if (largest != i) 
         { 
             int swap = arr[i]; 
             arr[i] = arr[largest]; 
             arr[largest] = swap; 
   
-            // Recursively heapify the affected sub-tree 
             heapify(arr, n, largest); 
         } 
     }
@@ -144,14 +134,61 @@ public class `heapsort`{
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=253292140&amp;format=interactive"></iframe>
 
-Este metodo presenta una ventajas en el ordenamiento de pocos datos, pero su gran desventaja radica en su tiempo de 
-ordenamiento ya que este se dublica al mismo ritmo que aumenta la cantidad de datos que se desea ordenar.
+123331231231231231231231231
 
 ![Diagrama Heapsort](https://i.imgur.com/iNUhuhR.png)
 
+**------------------------------------------------------------------------------------------------------------------------------------------**
 
+### Quicksort [Codigo](https://github.com/cristianmarint/Universidad/blob/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo/src/ordenamientos/quicksort.java)
 
+El metodo de ordenamiento de Quicksort representó la siguiente información ordenando vectores.
 
+```markdown
+public class `quickshort` {
+	public void `quickshort` (int vector[],int limite_izq,int limite_der) {
+		
+		int izq,der,temporal,pivote;
+
+		izq=limite_izq;
+		der=limite_der;
+		
+		pivote=vector[(izq+der)/2];		
+		do
+		{
+			while(vector[izq]<pivote && izq<limite_der)izq++;
+			while(pivote<vector[der] && der > limite_izq)der--;
+			
+			if (izq<=der)
+			{
+				temporal= vector[izq];
+				vector[izq]=vector[der];
+				vector[der]=temporal;
+				izq++;
+				der--;
+				
+			}
+		}while(izq<=der);
+		
+		if (limite_izq < der)
+		{
+			quickshort(vector,limite_izq,der);
+		}
+		if (limite_der > izq)
+		{
+			quickshort(vector,izq,limite_der);
+		}
+	}
+	
+}
+```
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=172213764&amp;format=interactive"></iframe>
+
+123331231231231231231231231
+
+poner
+![Diagrama Quicksort](https://i./iNUhuhR.png)
 
 
 
