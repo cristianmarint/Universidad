@@ -188,7 +188,9 @@ public class `quickshort` {
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=172213764&amp;format=interactive"></iframe>
 
-123331231231231231231231231
+Este metodo presenta una ventajas en al ser el más rapido de todos los ordenamiento que se analizaron, presentado
+una reduccion particular al aumentar la cantidad de datos que se seleccionan a ordenar, este metodo hace un uso excepcional
+de la recursividad para disminuir el tiempo que le toma hacer ciertas tareas.
 
 
 ![Diagrama Quicksort](https://imgur.com/cU6EMdE)
