@@ -32,7 +32,7 @@ datos este va a tomar una cantidad considerable de tiempo.
 
 ![Diagrama Insercion](https://i.imgur.com/k5dl8l0.png)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**----------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 
 ### Mergesort [Codigo](https://github.com/cristianmarint/Universidad/blob/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo/src/ordenamientos/mergesort.java)
 
