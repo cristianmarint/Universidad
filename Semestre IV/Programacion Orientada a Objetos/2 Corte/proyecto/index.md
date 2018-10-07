@@ -249,6 +249,8 @@ Este metodo presenta una ventajas en al ser uno de los más constantes en cuanto
 cuando las cantidades variaron de 500 a 1500 el tiempo que le tomó ordenarlas fue el mismo, esto resulta
 destacable dado que su consumo de recursos es facil de conocer. Por otra parte este metodo no hace uso de la
 recursividad en sus proceso lo cual lo prodría hacer mucho más efeciciente con cantidades de datos mayores.
+Ademas el limite de datos esta dado por una varible *MAX_RANGE*,esta pone un limite para evitar problemas al
+alojar en memoria el vector.
 
 
 ![Diagrama Countingsort](https://i.imgur.com/cYoYkEo.png)
