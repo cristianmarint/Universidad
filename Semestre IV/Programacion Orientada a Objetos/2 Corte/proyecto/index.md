@@ -307,7 +307,8 @@ public class `radixsort` {
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtjdiuLVC8mR16Bu0ILHgs7Kd4JjlwGMsdxzZ5p1StYYGrlx5Xik-HpID62rsg3KqHT2TEfZ_MfuF_/pubchart?oid=545522873&amp;format=interactive"></iframe>
 
-1231231
+Este metodo presenta una ventajas en al ser de un funcionamiento sencillo, haciendo uso del countingsort para parte de su proceso,
+pero no brilla por ser uno de las más veloces en el procesamiento de los datos siendo el segundo más lento bajo Insercion a los 1500 valores
 
 
 ![Diagrama Radixsort](https://i.imgur.com/9HvtMJ6.png)
