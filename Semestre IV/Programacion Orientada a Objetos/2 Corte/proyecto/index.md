@@ -314,6 +314,8 @@ public class `radixsort` {
 
 **------------------------------------------------------------------------------------------------------------------------------------------**
 
-### CONCLUSIONES
-
-1. CRISTIAN MARIN 
+# CONCLUSIONES:
+## Cristian Marín
+ - Conclusión 1
+ - Conclusión 2
+ - Conclusión 3
