@@ -326,3 +326,6 @@ pero no brilla por ser uno de las más veloces en el procesamiento de los datos 
     finalice para poder continuar con diferentes pasos, y si estos son aninados es aun peor dado a que avazar un paso va a 
     tomar siempre la misma cantidad de tiempo.
  - Conclusión 3
+    Los peores algoritmos fueron Insercion y Mergesort, estos al utilizar muchos ciclos hacen que su proceso de ordenamiento sea lento y
+    el tiempo aumente a la misma proporción que aumenta la cantidad de datos a la cual son expuestos, generando así un consumo mucho 
+    mayor de recursos Hardware.
