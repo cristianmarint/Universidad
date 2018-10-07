@@ -318,5 +318,11 @@ pero no brilla por ser uno de las más veloces en el procesamiento de los datos 
 # CONCLUSIONES:
 ## Cristian Marín
  - Conclusión 1
+    La velocidad del proceso de ordenamiento de cada metodo suele mejorar si hace uso de recursividad, esto se nota 
+    si comparamos metodos como el Insercion frente al Quicksort , en donde Insercion no hace uso de ella  y su funcionamiento
+    se basa en ciclos.
  - Conclusión 2
+    Los ciclos, en especial el FOR vuelven al metodo de ordenamiento especialmente lento, ya que este debe esperar a que su ciclo 
+    finalice para poder continuar con diferentes pasos, y si estos son aninados es aun peor dado a que avazar un paso va a 
+    tomar siempre la misma cantidad de tiempo.
  - Conclusión 3
