@@ -26,6 +26,7 @@ _Tabla de contenido_
 | ± | [Corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte) |
 | ± | [Proyecto](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte/Proyecto) |
 | ± | [Corte 2](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte) |
+| ± | [Proyecto](https://www.youtube.com/watch?v=y1EpaboCERg) |
 
 
 **Clean**  _Code_  `for` all
