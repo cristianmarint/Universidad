@@ -29,12 +29,11 @@ _Tabla de contenido_
 | ± | [Proyecto](https://www.youtube.com/watch?v=y1EpaboCERg) |
 
 
-**Clean**  _Code_  `for` all
+**Clean**  _Code_  `for` [all](https://cristianmarint.github.io/Universidad)
 
 
 
 
 
 
-[Pagina Principal](https://cristianmarint.github.io/Universidad)
-[p2](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
+[](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
