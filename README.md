@@ -1,6 +1,12 @@
 
 _Tabla de contenido_
 
+<link rel="shortcut icon" type="image/x-icon" href="http://marinutu.mipropia.com/images/logo/apple-icon-120x120.png">
+
+<link rel="icon" type="image/png" sizes="192x192" href="images/logo/android-icon-192x192.png">
+
+
+
 # Semestre II
 
 | MATERIA | ENLACE |
