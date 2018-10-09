@@ -1,8 +1,9 @@
+
 _Tabla de contenido_
 
 # Semestre II
 
-| MATERIA | CORTE |
+| MATERIA | ENLACE |
 | ------------ | -------------  |
 | `Estructura de datos I` | [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20II/Estructura%20de%20Datos%20I) 
 
@@ -11,14 +12,13 @@ _Tabla de contenido_
 
 # Semestre III 
 
-| MATERIA | CORTE |
+| MATERIA | ENLACE |
 | ------------ | -------------  |
 | `Estructura de datos II` | [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
 
-
 # Semestre IV
 
-| MATERIA | CORTE |
+| MATERIA | ENLACE |
 | ------------ | -------------  |
 | `Base De Datos II` |  [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II)  |
 | ± | [corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II/1%20Corte) |
