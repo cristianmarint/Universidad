@@ -21,14 +21,14 @@ _Tabla de contenido_
 | MATERIA | ENLACE |
 | ------------ | -------------  |
 | `Base De Datos II` |  [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II)  |
-| ± | [corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II/1%20Corte) |
+| corte 1 | [](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Base%20De%20Datos%20II/1%20Corte) |
 | `Programación Orientada a Objetos` |  [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos)  |
-| ± | [Corte 1](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte) |
-| ± | [Parcial](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte/parcial) |
-| ± | [Proyecto](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte/Proyecto) |
-| ± | [Corte 2](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte) |
-| ± | [Parcial](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/parcial) |
-| ± | [Proyecto](https://www.youtube.com/watch?v=y1EpaboCERg) |
+| Corte 1 | [📘](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte) |
+| Parcial | [🎯](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte/parcial) |
+| Proyecto | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/1%20Corte/Proyecto) |
+| Corte 2 | [📘](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte) |
+| Parcial | [🎯](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/parcial) |
+| Proyecto | [💡](https://www.youtube.com/watch?v=y1EpaboCERg) |
 
 **Clean**  _Code_  `for` [all](https://cristianmarint.github.io/Universidad)
 
