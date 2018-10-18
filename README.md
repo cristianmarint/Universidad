@@ -1,8 +1,13 @@
 
+
 _Tabla de contenido_
 
-<link rel="icon" type="image/ico" href="http://marinutu.mipropia.com/images/logo/favicon.ico">
 
+> Corte 📘
+> Parcial 🎯
+> Proyecto💡
+> Talleres ⏳
+> 
 # Semestre II
 
 | MATERIA | ENLACE |
@@ -36,11 +41,7 @@ _Tabla de contenido_
 
 **CLEAN**  _Code_  `FOR` [ALL](https://cristianmarint.github.io/Universidad)
 
-> Corte 📘
-> Parcial 🎯
-> Proyecto💡
-
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjIxNDYyMF19
+eyJoaXN0b3J5IjpbMTYyOTc0MTIzOF19
 -->
