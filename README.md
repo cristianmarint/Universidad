@@ -7,7 +7,7 @@ _Tabla de contenido_
 > Parcial 🎯<br>
 > Proyecto💡<br>
 > Talleres ⏳<br>
-> 
+
 # Semestre II
 
 | MATERIA | ENLACE |
@@ -43,5 +43,5 @@ _Tabla de contenido_
 
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjQyOTQ1OF19
+eyJoaXN0b3J5IjpbMjEyNDg2MzYzMiwtNzg2NDI5NDU4XX0=
 -->
