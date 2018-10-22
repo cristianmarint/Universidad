@@ -1,4 +1,5 @@
-﻿## PROYECTO METODOS DE ORDENAMIENTO [*](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo) 
+
+## PROYECTO METODOS DE ORDENAMIENTO [*](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo) 
 
 ### Insercion [Codigo](https://github.com/cristianmarint/Universidad/blob/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/codigo/src/ordenamientos/insercion.java)
 
@@ -330,34 +331,19 @@ pero no brilla por ser uno de las más veloces en el procesamiento de los datos 
     el tiempo aumente a la misma proporción que aumenta la cantidad de datos a la cual son expuestos, generando así un consumo mucho 
     mayor de recursos Hardware.
 
+
 ## Juan David Galviz
- 
--Conclusion 1<br>
-
-    El método HeapSort es mas eficiente en los arreglos con mas datos, ya que por ser un ordenamiento de montículo tiende a demorarse más con 
-    arreglos pequeños por contar con datos repetidos
- 
--Conclusion 2<br>
+ - Conclusion 1<br>
+El método HeapSort es mas eficiente en los arreglos con mas datos, ya que por ser un ordenamiento de montículo tiende a demorarse más con arreglos pequeños por contar con datos repetidos.
+ - Conclusion 2 <br>
+	El método Radix Sort a pesar de ser un metodo rapido puede demorar un poco su proceso en ciertos numeros de datos, ya que este ordena uno por uno los digitos de cada dato.
+ -  Conclusion 3 <br>
+	Los metodos mas rapidos fueron Quicksort, HeapSort y Countinsort gracias su complejidad y a que tienen pocos ciclos en su proceso de ordenado.
 	
-    El método Radix Sort a pesar de ser un metodo rapido puede demorar 
-    un poco su proceso en ciertos numeros de datos, ya que este ordena uno por uno los digitos de cada dato
- 
--Conclusion 3<br>
-	
-    Los metodos mas rapidos fueron Quicksort, HeapSort y Countinsort gracias su complejidad y a que tienen pocos ciclos en su proceso de ordenado
-
-
 ## andres Marín
- 
-- Conclusión 1<br>
-   
-    Uno de los principales metodos mas llamativos fue el Counting Sort el cual usa variables como el minimo numero el maximo y a su ves lleva su rango, tambien 
-    me llama la atencion que mediante el uso de pociciones y vectores logra en un vector final ordenar los numeros del array 
- 
-- Conclusión 2<br>
-
-    Dependiendo del orden de los valores cada metodo se comporta diferente y de manera mas rapida 
- 
-- Conclusión 3<br>
-
-    El metodo merge y el metodo de insersion son los mas cortos en linea de codigo y a su vez los mas faciles de comprender.
+ - Conclusión 1<br>
+   Uno de los principales metodos mas llamativos fue el Counting Sort el cual usa variables como el minimo numero el maximo y a su ves lleva su rango, tambien me llama la atencion que mediante el uso de pociciones y vectores logra en un vector final ordenar los numeros del array 
+ - Conclusión 2<br>
+Dependiendo del orden de los valores cada metodo se comporta diferente y de manera mas rapida 
+ - Conclusión 3<br>
+El metodo merge y el metodo de insersion son los mas cortos en linea de codigo y a su vez los mas faciles de comprender.
