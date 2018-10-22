@@ -340,7 +340,7 @@ El método HeapSort es mas eficiente en los arreglos con mas datos, ya que por s
  -  Conclusion 3 <br>
 	Los metodos mas rapidos fueron Quicksort, HeapSort y Countinsort gracias su complejidad y a que tienen pocos ciclos en su proceso de ordenado.
 	
-## andres Marín
+## Andres Marín
  - Conclusión 1<br>
    Uno de los principales metodos mas llamativos fue el Counting Sort el cual usa variables como el minimo numero el maximo y a su ves lleva su rango, tambien me llama la atencion que mediante el uso de pociciones y vectores logra en un vector final ordenar los numeros del array 
  - Conclusión 2<br>
