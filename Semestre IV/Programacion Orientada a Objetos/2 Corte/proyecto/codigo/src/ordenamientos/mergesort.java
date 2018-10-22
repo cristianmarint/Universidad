@@ -18,7 +18,7 @@ public class mergesort {
 		             vector2[i]=vector[i];
 
 		             i=izq; j=m+1; k=izq;
-		             while (i<=m && j<=der) //copia el siguiente elemento más grande
+		             while (i<=m && j<=der) //copia el siguiente elemento mï¿½s grande
 		             if (vector2[i]<=vector2[j])
 		                     vector[k++]=vector2[i++];
 		             else

@@ -23,7 +23,7 @@ public class countingsort {
         /** else it might give out of memory exception while allocating memory for array **/
         if (range > MAX_RANGE)
         {
-            System.out.println("\nError : Range too large for sort");
+            System.out.println("\nError : Demasiado grande");
             return;
         }
  
