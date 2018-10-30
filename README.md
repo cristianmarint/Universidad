@@ -39,6 +39,7 @@ _Tabla de contenido_
 | Github page del proyecto | [💡](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/) |
 | Corte 3 | [📘](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte) |
 | Taller 1 - Introducción a Swing | [⏳](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/1%20Clase) |
+| Taller 2 - Swing + BD | [⏳](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/2%20Clase) |
 
 **CLEAN**  _Code_  `FOR` [ALL](https://cristianmarint.github.io/Universidad)
 
