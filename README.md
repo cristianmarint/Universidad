@@ -40,11 +40,12 @@ _Tabla de contenido_
 | Corte 3 | [📘](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte) |
 | Taller 1 - Introducción a Swing | [⏳](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/1%20Clase) |
 | Taller 2 - Swing + BD | [⏳](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/2%20Clase) |
+| Proyecto tienda de música | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/Proyecto) |
 
 **CLEAN**  _Code_  `FOR` [ALL](https://cristianmarint.github.io/Universidad)
 
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTIzMTk3LC01NTgxNTgwMzAsMjEyND
+eyJoaXN0b3J5IjpbMTE1NzIxNTA0LC01NTgxNTgwMzAsMjEyND
 g2MzYzMiwtNzg2NDI5NDU4XX0=
 -->
