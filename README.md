@@ -45,6 +45,6 @@ _Tabla de contenido_
 
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODE1ODAzMCwyMTI0ODYzNjMyLC03OD
-Y0Mjk0NThdfQ==
+eyJoaXN0b3J5IjpbMTUyMTIzMTk3LC01NTgxNTgwMzAsMjEyND
+g2MzYzMiwtNzg2NDI5NDU4XX0=
 -->
