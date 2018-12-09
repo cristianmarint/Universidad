@@ -22,10 +22,10 @@ _Tabla de contenido_
 
 | MATERIA | ENLACE |
 | ------------ | -------------  |
-| `Estructura de datos II` | [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II/Proyecto%20Corte%201) 
-| Proyecto Corte 1 | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/Proyecto) |
-| Proyecto Corte 2 | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/Proyecto) |
-| Proyecto Corte 3 | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/3%20Corte/Proyecto) |
+| `Estructura de datos II` | [[General]](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II) 
+| Proyecto Corte 1 | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II/Proyecto%20Corte%201) |
+| Proyecto Corte 2 | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II/Proyecto%20Corte%202) |
+| Proyecto Corte 3 | [💡](https://github.com/cristianmarint/Universidad/tree/master/Semestre%20III/Estructuras%20de%20Datos%20II/Proyecto%20Corte%203) |
 
 
 # Semestre IV
@@ -50,6 +50,6 @@ _Tabla de contenido_
 
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjQzNTUzMywtNTU4MTU4MDMwLDIxMj
+eyJoaXN0b3J5IjpbLTY5MTY5NzYyNywtNTU4MTU4MDMwLDIxMj
 Q4NjM2MzIsLTc4NjQyOTQ1OF19
 -->
