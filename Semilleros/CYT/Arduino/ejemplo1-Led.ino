@@ -29,5 +29,8 @@ void parpadearLed(int inicio,int fin){
     }
 }
 
-// Ejemplo en:
-https://www.tinkercad.com/things/jDlBsW65B0X-ejemplo1/editel
+// Circuito en:
+// https://www.tinkercad.com/things/jDlBsW65B0X
+
+// Fuente:
+// http://educ8s.tv/arduino-rgb-led-tutorial/
