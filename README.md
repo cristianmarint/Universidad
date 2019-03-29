@@ -7,7 +7,7 @@ _Tabla de contenido_
 > Parcial 🎯<br>
 > Proyecto💡<br>
 > Talleres ⏳<br>
-> Semilledos 🔎 <br>
+> Semilleros🔎 <br>
 
 
 # Semestre II
@@ -58,6 +58,6 @@ _Tabla de contenido_
 
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc4NzUxMjEsLTY5MTY5NzYyNywtNT
-U4MTU4MDMwLDIxMjQ4NjM2MzIsLTc4NjQyOTQ1OF19
+eyJoaXN0b3J5IjpbMTA5MTc1NTk1NywtNjkxNjk3NjI3LC01NT
+gxNTgwMzAsMjEyNDg2MzYzMiwtNzg2NDI5NDU4XX0=
 -->
