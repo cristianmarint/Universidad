@@ -7,12 +7,19 @@ const int rp2 = 9;
 const int gp2 = 10;
 const int bp2 = 11;
 
+// colores
+const int colors [3][3]={
+    {255,0,0}, //Rojo
+    {255,255,0}, //Amarillo
+    {0,255,0} //verde
+};
+
 // Variable que controla el turno global de los semaforos.
 int estado=0;
 
 void setup()
 {
-//   Serial.begin(9600);
+  Serial.begin(9600);
 
   //  Inicialización de los pines
   pinMode(rp1, OUTPUT);
@@ -23,7 +30,7 @@ void setup()
   pinMode(gp2, OUTPUT);
   pinMode(bp2, OUTPUT);
 
-  setColor(255, 0, 0,rp2,gp2,bp2);  // Rojo  
+  // setColor(0,rp2,gp2,bp2);  // Rojo  
 }
  
 void loop()
@@ -36,47 +43,34 @@ void loop()
 
 
 // Estable un color al led en RGB
-void setColor(int red, int green, int blue,int rp,int gp,int bp)
+void setColor(int color,int rp,int gp,int bp)
 {
-  analogWrite(rp, red);
-  analogWrite(gp, green);
-  analogWrite(bp, blue);  
+  analogWrite(rp,colors[color][0]);
+  analogWrite(gp,colors[color][1]);
+  analogWrite(bp,colors[color][2]);  
 }
 
 
 
-// Usa la variable global del turno
+// Usa la variable global del estado
 // y una segunda para determinar el 
-// momento adecuado para ser activado
-// void semaforo(int estado,int turno,int rp,int gp,int bp){
+// momento (turno) adecuado para ser activado
 void semaforo(int turno,int rp,int gp,int bp){
     while(estado==turno){
-        estado++; 
-        Serial.print("=>");Serial.println(estado);
+        Serial.print("Estado=> ");Serial.println(estado);
+        Serial.print("+Turno=>");Serial.println(estado);
 
-        setColor(255, 0, 0,rp,gp,bp);  // Rojo
+        setColor(0,rp,gp,bp);  // Rojo
         delay(3000);
-
-        setColor(255, 255, 0,rp,gp,bp);  // Amarillo
+        setColor(1,rp,gp,bp);  // Amarillo
         delay(1000);
-
-        setColor(0, 255, 0,rp,gp,bp);  // Azul
+        setColor(2,rp,gp,bp);  // Verde
         delay(3000);
-
-        setColor(255, 0, 0,rp,gp,bp);  // Rojo
-        
+        setColor(0,rp,gp,bp);  // Rojo  
+        estado++; 
     }
 }
 
 
 // Circuito en:
 // https://www.tinkercad.com/things/6OLDgHV13Kl
-
-
-
-
-
-
-// por cambiar:
-// Convertir los colores en un array3D y 
-// y en set color solo se especifica la posicion del color
