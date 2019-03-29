@@ -1,7 +1,3 @@
-// Enciende el led 13 X cantidad de veces
-// Se especifica un punto final y uno inicial 
-// si se desea
-
 void setup(){
   pinMode(13, OUTPUT);
 }
@@ -19,9 +15,10 @@ void parpadearLed(int inicio,int fin){
     Serial.print("Fin:");Serial.println(fin);
     Serial.println("---");
   
-    digitalWrite(13,HIGH);
-    delay(1000);
-    digitalWrite(13,LOW);
+    digitalWrite(13, HIGH);
+    delay(1000); // Wait for 1000 millisecond(s)
+    digitalWrite(13, LOW);
+    delay(1000); // Wait for 1000 millisecond(s)
 
     if(inicio==fin){
         Serial.print(":)");
@@ -31,7 +28,3 @@ void parpadearLed(int inicio,int fin){
         parpadearLed(inicio+1,fin);
     }
 }
-
-
-// Accesible en:
-// https://www.tinkercad.com/things/jDlBsW65B0X-ejemplo1/editel
