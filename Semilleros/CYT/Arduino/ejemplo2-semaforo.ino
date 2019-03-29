@@ -30,7 +30,7 @@ void setup()
   pinMode(gp2, OUTPUT);
   pinMode(bp2, OUTPUT);
 
-  // setColor(0,rp2,gp2,bp2);  // Rojo  
+  setColor(0,rp2,gp2,bp2);  // Rojo  
 }
  
 void loop()
