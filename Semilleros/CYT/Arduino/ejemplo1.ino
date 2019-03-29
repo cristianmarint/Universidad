@@ -28,3 +28,6 @@ void parpadearLed(int inicio,int fin){
         parpadearLed(inicio+1,fin);
     }
 }
+
+// Ejemplo en:
+https://www.tinkercad.com/things/jDlBsW65B0X-ejemplo1/editel
