@@ -51,13 +51,14 @@ _Tabla de contenido_
 
 | NOMBRE | ENLACE |
 | ------------ | -------------  |
-| `PCC` | [🔎]([https://github.com/cristianmarint/Universidad/tree/master/Semilleros/PCC](https://github.com/cristianmarint/Universidad/tree/master/Semilleros/PCC)) |
-|`CYT`|[🔎]([https://github.com/cristianmarint/Universidad/tree/master/Semilleros/CYT](https://github.com/cristianmarint/Universidad/tree/master/Semilleros/CYT))|
+| `PCC` | [🔎]([https://github.com/cristianmarint/Universidad/tree/master/Semilleros/PCC](https://github.com/cristianmarint/Universidad/tree/master/Semilleros/PCC) |
+|`CYT`|[🔎]([https://github.com/cristianmarint/Universidad/tree/master/Semilleros/CYT](https://github.com/cristianmarint/Universidad/tree/master/Semilleros/CYT)|
 
 **CLEAN**  _Code_  `FOR` [ALL](https://cristianmarint.github.io/Universidad)
 
 [](https://cristianmarint.github.io/Universidad/Semestre%20IV/Programacion%20Orientada%20a%20Objetos/2%20Corte/proyecto/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTc1NTk1NywtNjkxNjk3NjI3LC01NT
-gxNTgwMzAsMjEyNDg2MzYzMiwtNzg2NDI5NDU4XX0=
+eyJoaXN0b3J5IjpbLTE4OTI3ODc5NjcsMTA5MTc1NTk1NywtNj
+kxNjk3NjI3LC01NTgxNTgwMzAsMjEyNDg2MzYzMiwtNzg2NDI5
+NDU4XX0=
 -->
