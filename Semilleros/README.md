@@ -8,4 +8,4 @@ Los semilleros son grupos que hacen parte de la comunidad educativo, en estos ge
 
 ### PCC 2017 - 2 | 2018-2
 
-### CYT 2019 - 1 | Actualidad
+### STEM 2019 - 1 | Actualidad
