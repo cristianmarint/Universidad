@@ -1,7 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
-int PIN=2; //Pin donde está conectada la tira de leds
-int NUMPIXELS=6; //Número de leds conectados
+const int PIN=2; //Pin donde está conectada la tira de leds
+const int NUMPIXELS=6; //Número de leds conectados
+const float ut=1000;  //Unidad de tiempo (ut) 1s == 1000ml
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
@@ -25,7 +26,7 @@ void setup()
  
 void loop()
 {
-  semaforo(0,2,1,2);
+  semaforo(0,1,2,1);
   estado=0;
 }
 
@@ -35,50 +36,33 @@ void loop()
 //            //turno   t. rojo   t. verde   t. amarillo
 void semaforo(int turno,float tr ,float te  ,float ta){
     while(estado==turno){
-        // Serial.print("Estado=> ");Serial.println(estado);
-        // Serial.print("+Turno=>");Serial.println(turno);
+      // Serial.print("Estado=> ");Serial.println(estado);
+      // Serial.print("+Turno=>");Serial.println(turno);
 
+        // rojo
+        pixels.setPixelColor(0, colors[0][0], colors[0][1], colors[0][2] );
+        pixels.setPixelColor(1, colors[0][0], colors[0][1], colors[0][2] );
+        pixels.show();
+        delay(ut*tr);
+        // amarillo
+        pixels.setPixelColor(2, colors[1][0], colors[1][1], colors[1][2] );
+        pixels.setPixelColor(3, colors[1][0], colors[1][1], colors[1][2] );
+        pixels.show();
+        delay(ut*te);
+        // verde
+        pixels.setPixelColor(4, colors[2][0], colors[2][1], colors[2][2] );
+        pixels.setPixelColor(5, colors[2][0], colors[2][1], colors[2][2] );
+        pixels.show();
+        delay(ut*ta);
 
-        int i = 0;
-        int c = 0;
+      for( i = 0; i < pixels.numPixels(); i++)
+      {
+        pixels.setPixelColor(i,0);//OFF
+      }
+      pixels.show();
+        
 
-        float ut = 1000;
-
-          // // rojo
-          // pixels.setPixelColor(0, colors[0][0], colors[0][1], colors[0][2] );
-          // pixels.setPixelColor(1, colors[0][0], colors[0][1], colors[0][2] );
-          // pixels.show();
-          // delay(ut*tr);
-          // // amarillo
-          // pixels.setPixelColor(2, colors[1][0], colors[1][1], colors[1][2] );
-          // pixels.setPixelColor(3, colors[1][0], colors[1][1], colors[1][2] );
-          // pixels.show();
-          // delay(ut*te);
-          // // verde
-          // pixels.setPixelColor(4, colors[2][0], colors[2][1], colors[2][2] );
-          // pixels.setPixelColor(5, colors[2][0], colors[2][1], colors[2][2] );
-          // pixels.show();
-          // delay(ut*ta);
-
-          for( i = 0; i < pixels.numPixels(); i+2)
-          {
-            if(i%2!=0){c++;}
-        // Serial.print("Estado=> ");Serial.println(estado);
-        // Serial.print("+Turno=>");Serial.println(turno);
-              pixels.setPixelColor(i, colors[c][0], colors[c][1], colors[c][2] );
-              pixels.setPixelColor(i+1, colors[c][0], colors[c][1], colors[c][2] );
-              pixels.show();
-              delay(ut*tr);
-          }
-
-          for( i = 0; i < pixels.numPixels(); i++)
-          {
-            pixels.setPixelColor(i,0);
-          }
-          pixels.show();
-          
-
-        estado++; 
+      estado++; 
     }
 }
 
