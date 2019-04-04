@@ -90,6 +90,5 @@ void semaforo(int turno,float tr ,float te  ,float ta){// 😉
 // Circuito en:
 // https://www.tinkercad.com/things/0mWjvUwhhYG
 
-
-// tutorial para conectar la tira:
-// https://www.youtube.com/watch?v=BQHMMlEAj3g
+// Fuente del cirucito:
+// https://learn.adafruit.com/assets/30892
