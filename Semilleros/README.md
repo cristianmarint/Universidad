@@ -1,6 +1,6 @@
 # ¿Semilleros?
 
-Los semilleros son grupos que hacen parte de la comunidad educativo, en estos generanmente se realizan actividades de investigación y/o desarollo de software.
+Un semillero de investigación es una comunidad de aprendizaje de naturaleza autónoma y diversidad dinámica conformada por estudiantes en donde se desarrolan proyecto de investigación y/o desarrollo de software.
 
 
 
