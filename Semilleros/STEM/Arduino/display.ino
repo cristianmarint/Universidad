@@ -1,7 +1,6 @@
-// include the library code:
 #include <LiquidCrystal.h>
 
-// initialize the library with the numbers of the interface pins
+// Inicializa la libreria en una variable con los números de los pines de la interfaz.
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 int i=0;
 
