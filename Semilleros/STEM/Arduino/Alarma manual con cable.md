@@ -1,3 +1,5 @@
+Sonido activado por medio de contacto de cable.
+
 ```
 /*
    Alarma 
@@ -32,7 +34,5 @@ void loop(){
 }
 
 ```
-
-https://imgur.com/EHfI49h
 
 <img src="https://i.imgur.com/EHfI49h.jpg">
