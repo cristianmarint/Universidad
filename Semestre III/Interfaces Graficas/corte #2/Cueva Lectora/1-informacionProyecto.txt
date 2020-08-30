@@ -1,0 +1,31 @@
+session_start: CREA LAS SESIONES PARA PODER USAR Y PASAR LA INFORMACION
+
+
+$_SESSION: ES UN ARREGLO DE LA SESION, SIRVE COMO UNA VARIABLE GLOBAL PARA PSAR INFORMACION ENTRE SCRIPTS
+
+
+mysqli_connect: ESTABLECE LA CONECCION CON LA BASE DE DATOS
+mysqli_connect("localhost o servidor", "mi_usuario", "mi_contraseña", "mi_bd");
+
+
+mysqli_real_escape_string: La función agrega un carácter de escape, la barra invertida,(\x00, \n, \r, \, ', " y \x1a.),
+antes de que ciertos caracteres potencialmente peligrosos en una cadena pasen a la función generando bugs y evitando el paso de scripts dañinas.
+
+
+mysqli_fetch_array(); convierte informacion en arreglos.
+
+PHP_EOL : sin de linea como <br> o el \n de C
+
+$_POST: recibe la INFORMACION de el FORM del html de menuingresar.php por medio del metodo post
+
+
+
+
+
+AJAX = Asynchronous JavaScript And XML.  ----  
+permite que las páginas web se actualicen de forma asíncrona mediante el intercambio de datos con un servidor
+web detrás de las escenas.
+
+
+
+$_trim — Elimina espacio en blanco (u otro tipo de caracteres) del inicio y el final de la cadena

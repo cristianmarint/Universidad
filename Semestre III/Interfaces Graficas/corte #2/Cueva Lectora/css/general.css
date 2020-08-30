@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
+body{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 40px;
+}
+input {
+    width: 400px;
+    padding: 0 20px;
+}
+
+input,input::-webkit-input-placeholder {
+  /* distancia entre el placeholder y la linea inferior verde */
+    line-height: 2 !important;
+    font-size: 25px !important;
+}
+
+
+/* --------- clases --------- */
+.logo{
+  max-width: 100px;
+}
+.logoTexto{
+  height: auto;
+  /* rem = multiplica N veces el tamaño del la fuente en el body */
+  font-size: 5rem;
+  font-style:italic;
+  font-weight: 700;
+
+  margin-left: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.portada-tarjeta{
+  background-position:  center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.enlaces-menu-superior{
+  font-weight: 700 !important;
+  /* vw=width of viewport, el ancho se toma en el header */
+  font-size: 1.5vw !important;
+  
+  margin-top: 15% !important;
+}
+.libroHover{
+  transition: transform .2s ease-in-out ;
+}
+.libroHover:hover{
+  transform: scale(1.02) ;
+}
+
+
+/* ID's */
+#cabecera{
+  background-color: white;
+  color:black;
+}
+/*Dividimos la pagina en 12 columnas para ayudar en la ubicacion de las cosas*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*Se ponen tdas las clases que sigan el patron col- a la izquierda y las alinea*/
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+  border: none;
+}
+/*Ajusta el tamaño de pantalla cuando lee que es de 1080px*/
+@media only screen and (max-width: 1080px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .logoTexto{
+      font-size: 5rem !important;
+    }
+    .enlaces-menu-superior{
+      font-size: 2rem !important;
+    }
+    .valinicio{
+      font-size: 2rem !important;
+    }
+}

@@ -1,0 +1,17 @@
+ErrorDocument 400 http://interfaces.mipropia.com/404.php
+ErrorDocument 401 http://interfaces.mipropia.com/404.php
+ErrorDocument 403 http://interfaces.mipropia.com/404.php
+ErrorDocument 404 http://interfaces.mipropia.com/404.php
+ErrorDocument 503 http://interfaces.mipropia.com/404.php
+
+
+<Files "1-informacionProyecto.txt">
+  Order Allow,Deny
+  Deny from all
+</Files>
+
+
+<Files "consultausuarios.php">
+  Order Allow,Deny
+  Deny from all
+</Files>

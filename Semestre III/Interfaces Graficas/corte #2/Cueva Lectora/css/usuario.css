@@ -1,0 +1,11 @@
+.cuadrado {
+  /* portada de los libros */
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+}
+.mar-izq{
+  margin-top: 2%;
+}
